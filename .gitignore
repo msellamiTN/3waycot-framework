@@ -40,7 +40,7 @@ results/*
 data/benchmarks/*
 !data/benchmarks/.gitkeep
 data/knowledge_base.json
-
+benchmarks\datasets
 # Large files
 benchmarks/datasets/data_clean.zip
 *.zip
