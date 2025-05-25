@@ -1,0 +1,55 @@
+Metadata-Version: 2.4
+Name: threeway_cot
+Version: 2.0.0
+Summary: Three-Way Chain of Thought framework for uncertainty-aware reasoning
+Home-page: https://github.com/3waycot/framework
+Author: 3WayCoT Team
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: transformers>=4.30.0
+Requires-Dist: scikit-learn>=1.0.0
+Requires-Dist: networkx>=2.8.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: nltk>=3.7
+Requires-Dist: tqdm>=4.64.0
+Requires-Dist: scipy>=1.7.0
+Requires-Dist: concept-py>=0.9.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 3WayCoT Framework
+
+A framework for Three-Way Chain of Thought reasoning with fuzzy concept analysis.
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   pip install -e .
+   ```
+
+## Usage
+
+```bash
+python main.py --prompt "Your prompt here" --provider gemini
+```
+
+## Features
+
+- Three-Way Decision Making
+- Fuzzy Concept Analysis
+- Support for multiple LLM providers (including Gemini)
+- Confidence-based reasoning

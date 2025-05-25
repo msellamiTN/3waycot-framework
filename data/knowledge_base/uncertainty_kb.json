@@ -1,0 +1,183 @@
+{
+  "concepts": [
+    {
+      "id": "c001",
+      "name": "Statistical Significance",
+      "description": "The determination that a result is unlikely to have occurred by random chance.",
+      "attributes": [
+        "p-value",
+        "confidence interval",
+        "effect size",
+        "sample size"
+      ],
+      "relations": [
+        {"concept": "c002", "type": "uses", "strength": 0.8},
+        {"concept": "c003", "type": "foundational", "strength": 0.7}
+      ]
+    },
+    {
+      "id": "c002",
+      "name": "Probability Theory",
+      "description": "The branch of mathematics concerned with probability and analysis of random phenomena.",
+      "attributes": [
+        "probability distribution",
+        "random variable",
+        "expected value",
+        "variance"
+      ],
+      "relations": [
+        {"concept": "c003", "type": "foundational", "strength": 0.9},
+        {"concept": "c007", "type": "related", "strength": 0.6}
+      ]
+    },
+    {
+      "id": "c003",
+      "name": "Statistical Inference",
+      "description": "The process of drawing conclusions about populations from samples.",
+      "attributes": [
+        "parameter estimation",
+        "hypothesis testing",
+        "confidence interval",
+        "significance level"
+      ],
+      "relations": [
+        {"concept": "c001", "type": "uses", "strength": 0.85},
+        {"concept": "c004", "type": "related", "strength": 0.7}
+      ]
+    },
+    {
+      "id": "c004",
+      "name": "Uncertainty Quantification",
+      "description": "The science of quantitative characterization and reduction of uncertainties in applications.",
+      "attributes": [
+        "error bounds",
+        "uncertainty propagation",
+        "sensitivity analysis",
+        "robustness"
+      ],
+      "relations": [
+        {"concept": "c005", "type": "uses", "strength": 0.75},
+        {"concept": "c006", "type": "related", "strength": 0.8}
+      ]
+    },
+    {
+      "id": "c005",
+      "name": "Fuzzy Logic",
+      "description": "A form of many-valued logic that deals with approximate reasoning rather than fixed and exact.",
+      "attributes": [
+        "membership function",
+        "fuzzy set",
+        "linguistic variable",
+        "fuzzy rule"
+      ],
+      "relations": [
+        {"concept": "c006", "type": "related", "strength": 0.65},
+        {"concept": "c008", "type": "application", "strength": 0.7}
+      ]
+    },
+    {
+      "id": "c006",
+      "name": "Three-Way Decision Theory",
+      "description": "A framework for decision-making that divides options into acceptance, rejection, and non-commitment.",
+      "attributes": [
+        "positive region",
+        "negative region",
+        "boundary region",
+        "decision thresholds"
+      ],
+      "relations": [
+        {"concept": "c005", "type": "uses", "strength": 0.8},
+        {"concept": "c004", "type": "application", "strength": 0.75}
+      ]
+    },
+    {
+      "id": "c007",
+      "name": "Bayesian Statistics",
+      "description": "A statistical methodology that applies probability to statistical problems, updating beliefs based on new evidence.",
+      "attributes": [
+        "prior probability",
+        "posterior probability",
+        "Bayes theorem",
+        "credible interval"
+      ],
+      "relations": [
+        {"concept": "c002", "type": "uses", "strength": 0.85},
+        {"concept": "c003", "type": "alternative", "strength": 0.7}
+      ]
+    },
+    {
+      "id": "c008",
+      "name": "Decision Making Under Uncertainty",
+      "description": "The process of making choices when the outcomes are uncertain or unknown.",
+      "attributes": [
+        "expected utility",
+        "risk assessment",
+        "decision tree",
+        "minimax strategy"
+      ],
+      "relations": [
+        {"concept": "c004", "type": "uses", "strength": 0.8},
+        {"concept": "c006", "type": "uses", "strength": 0.75},
+        {"concept": "c007", "type": "uses", "strength": 0.7}
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "id": "r001",
+      "description": "If a claim has strong statistical significance, it should generally be accepted",
+      "premise": ["statistical significance", "large sample size", "appropriate methodology"],
+      "conclusion": "accept claim",
+      "confidence": 0.85
+    },
+    {
+      "id": "r002",
+      "description": "If a claim lacks statistical significance, it should generally be rejected",
+      "premise": ["no statistical significance", "adequate sample size", "appropriate methodology"],
+      "conclusion": "reject claim",
+      "confidence": 0.8
+    },
+    {
+      "id": "r003",
+      "description": "If sample size is too small, judgment should be deferred regardless of statistical significance",
+      "premise": ["small sample size", "any statistical significance"],
+      "conclusion": "defer judgment",
+      "confidence": 0.75
+    },
+    {
+      "id": "r004",
+      "description": "High uncertainty in measurements should lead to deferring judgment",
+      "premise": ["high measurement uncertainty", "any statistical significance"],
+      "conclusion": "defer judgment",
+      "confidence": 0.8
+    },
+    {
+      "id": "r005",
+      "description": "Low sample diversity despite large sample size should decrease confidence",
+      "premise": ["large sample size", "low sample diversity"],
+      "conclusion": "decrease confidence",
+      "confidence": 0.7
+    },
+    {
+      "id": "r006",
+      "description": "Multiple replicated studies with similar results increase confidence",
+      "premise": ["multiple studies", "similar results", "different researchers"],
+      "conclusion": "increase confidence",
+      "confidence": 0.9
+    },
+    {
+      "id": "r007",
+      "description": "When statistical and practical significance differ, practical significance should generally take precedence",
+      "premise": ["statistical significance", "low practical significance"],
+      "conclusion": "defer judgment",
+      "confidence": 0.65
+    },
+    {
+      "id": "r008",
+      "description": "Very high confidence levels should be required for life-critical decisions",
+      "premise": ["life-critical decision", "any confidence level below 0.95"],
+      "conclusion": "defer judgment",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,703 @@
+2025-05-20 14:36:42,278 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 14:36:42,278 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 14:36:42,279 - 3WayCoT - INFO - Running Phase 1
+2025-05-20 14:36:42,279 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 14:36:42,279 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 14:36:42,279 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 14:36:42,283 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 14:36:43,478 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 14:36:43,479 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 14:36:43,479 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 14:36:43,479 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 14:36:48,716 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 14:36:48,716 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 14:36:48,717 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 14:36:48,718 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,718 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,718 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 14:36:48,719 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,719 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,719 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 14:36:48,720 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The timing of biological events (e']
+2025-05-20 14:36:48,720 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (1): ['Implicit assumption: The timing of biological events (e']
+2025-05-20 14:36:48,720 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 14:36:48,720 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,721 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,721 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 14:36:48,721 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,721 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:36:48,721 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 14:36:48,722 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.95']
+2025-05-20 14:36:48,722 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.95']
+2025-05-20 14:36:48,722 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 14:36:48,722 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 14
+2025-05-20 14:36:48,722 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 14:36:48,723 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 14:36:48,723 - 3WayCoT - ERROR - Error in 3WayCoT execution: 'content'
+Traceback (most recent call last):
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 457, in main
+    phase1_pipeline(args)
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 170, in phase1_pipeline
+    logger.info(f"Step {i+1}: {step['content']}")
+                               ~~~~^^^^^^^^^^^
+KeyError: 'content'
+2025-05-20 14:38:57,795 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 14:38:57,795 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 14:38:57,795 - 3WayCoT - INFO - Running Phase 1
+2025-05-20 14:38:57,796 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 14:38:57,796 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 14:38:57,796 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 14:38:57,797 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 14:38:58,518 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 14:38:58,518 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 14:38:58,518 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 14:38:58,519 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 14:39:04,354 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 14:39:04,355 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 14:39:04,355 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 14:39:04,356 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,356 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,357 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 14:39:04,357 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,357 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,358 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 14:39:04,358 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,358 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,358 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 14:39:04,358 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,359 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,359 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 14:39:04,359 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,359 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 14:39:04,360 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 14:39:04,360 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.5']
+2025-05-20 14:39:04,360 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.5']
+2025-05-20 14:39:04,361 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 14:39:04,361 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 16
+2025-05-20 14:39:04,361 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 14:39:04,361 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 14:39:04,361 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 14:39:04,362 - 3WayCoT - INFO - Step 1: Climate change alters habitats through rising temperatures, altered precipitation patterns, and increased frequency of extreme weather events.  This directly impacts species' ability to survive and reproduce in their current ecological niches.
+
+Assumptions:
+1.  Species have limited physiological tolerances to temperature and precipitation changes.
+2.  Habitat alteration is the primary driver of biodiversity loss in the face of climate change.
+3.  Current climate models accurately predict future temperature and precipitation changes.
+4.  Species migration rates are insufficient to keep pace with rapid climate change in many cases.
+5.  Species interactions (e.g., predator-prey relationships) will be significantly affected by habitat shifts.
+2025-05-20 14:39:04,362 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 14:39:04,362 - 3WayCoT - INFO - Step 2: Changes in habitat suitability lead to range shifts, potentially causing species to move to higher altitudes or latitudes.  This can lead to competition with existing species in those areas, habitat fragmentation, and loss of genetic diversity in isolated populations.
+
+Assumptions:
+1.  Species are able to migrate to more suitable habitats.
+2.  Suitable habitats exist in accessible locations for all affected species.
+3.  Competition for resources will intensify in newly occupied areas.
+4.  Fragmentation of habitats reduces gene flow and increases the risk of inbreeding.
+5.  Genetic diversity is crucial for species adaptation and resilience.
+2025-05-20 14:39:04,363 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 14:39:04,363 - 3WayCoT - INFO - Step 3: Increased frequency and intensity of extreme weather events (e.g., droughts, floods, wildfires) can cause direct mortality and habitat destruction, leading to immediate population declines and potential extinctions.
+
+Assumptions:
+1.  Extreme weather events are increasing in frequency and intensity due to climate change.
+2.  Many species lack the resilience to withstand extreme weather events.
+3.  Habitat recovery after extreme events is slow or incomplete in many cases.
+4.  Species with limited geographic ranges are particularly vulnerable to extinction.
+5.  The impacts of extreme weather events on biodiversity are not fully understood and require further research.
+2025-05-20 14:39:04,363 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 14:39:04,363 - 3WayCoT - INFO - Step 4: Ocean acidification, caused by increased absorption of CO2 by the oceans, negatively impacts marine ecosystems, particularly coral reefs and shellfish, leading to reduced biodiversity in marine environments.
+
+Assumptions:
+1.  Ocean acidification is directly caused by increased atmospheric CO2 levels.
+2.  Shellfish and coral reefs are particularly sensitive to changes in ocean pH.
+3.  The effects of ocean acidification are cascading, impacting the entire marine food web.
+4.  Current models accurately reflect the future extent of ocean acidification.
+5.  Adaptation to ocean acidification is limited for many marine species.
+2025-05-20 14:39:04,364 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 14:39:04,364 - 3WayCoT - INFO - Step 5: Phenological mismatches, where the timing of biological events (e.g., migration, flowering) is disrupted due to climate change, can disrupt ecological interactions and reduce reproductive success.
+
+Assumptions:
+1.  Climate change is altering the timing of biological events.
+2.  Species interactions are tightly coupled to phenological timing.
+3.  Phenological mismatches negatively affect species fitness.
+4.  The magnitude of phenological shifts varies across species.
+5.  Predicting the full consequences of phenological mismatches is challenging due to complex ecological interactions.
+2025-05-20 14:39:04,364 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 14:39:04,364 - 3WayCoT - INFO - Step 6: Final Answer: Climate change has multifaceted and severe impacts on biodiversity, leading to habitat loss, range shifts, increased extinction risk, disrupted ecological interactions, and reduced genetic diversity across various ecosystems.
+
+Confidence: 0.9 (High confidence, but some uncertainties remain regarding the precise magnitude and timing of specific impacts due to the complexity of ecological systems and ongoing research.)
+2025-05-20 14:39:04,364 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.5
+2025-05-20 14:39:04,365 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 14:39:04,365 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 14:39:04,365 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-20 14:39:04,365 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 14:39:04,365 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 14:39:04,366 - 3WayCoT - ERROR - Error in 3WayCoT execution: 'ThreeWayDecisionMaker' object has no attribute 'decide'
+Traceback (most recent call last):
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 488, in main
+    phase1_pipeline(args)
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 310, in phase1_pipeline
+    decision = decision_maker.decide(membership_degrees)
+               ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ThreeWayDecisionMaker' object has no attribute 'decide'
+2025-05-20 15:00:39,167 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 15:00:39,168 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 15:00:39,168 - 3WayCoT - INFO - Running Phase 1
+2025-05-20 15:00:39,168 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 15:00:39,168 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 15:00:39,168 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 15:00:39,170 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 15:00:40,033 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 15:00:40,034 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 15:00:40,034 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 15:00:40,034 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 15:00:46,266 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 15:00:46,267 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 15:00:46,268 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 15:00:46,269 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,269 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,269 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 15:00:46,270 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,270 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,270 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 15:00:46,271 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 3 (expected up to 5). Assumptions: ["Implicit assumption: A predator's migration is delayed, its prey population might experience uncontrolled growth before the predator arrives"]
+2025-05-20 15:00:46,271 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (1): ["Implicit assumption: A predator's migration is delayed, its prey population might experience uncontrolled growth before the predator arrives"]
+2025-05-20 15:00:46,271 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 15:00:46,271 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,271 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,272 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 15:00:46,272 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,272 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:00:46,272 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 15:00:46,273 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.95']
+2025-05-20 15:00:46,273 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.95']
+2025-05-20 15:00:46,273 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 15:00:46,273 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 14
+2025-05-20 15:00:46,273 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 15:00:46,273 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 15:00:46,273 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 15:00:46,274 - 3WayCoT - INFO - Step 1: Climate change alters habitats, leading to shifts in species distribution and abundance.  Rising temperatures, changing precipitation patterns, and increased frequency of extreme weather events directly impact the suitability of habitats for various species.  Species with limited dispersal abilities or specific habitat requirements will be disproportionately affected.
+
+Assumptions:
+1. Species have specific habitat requirements.
+2. Climate change alters temperature and precipitation patterns.
+3. Species dispersal abilities vary.
+4. Extreme weather events are increasing in frequency and intensity due to climate change.
+5. Habitat suitability is directly linked to climate variables.
+2025-05-20 15:00:46,274 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:00:46,274 - 3WayCoT - INFO - Step 2: Changes in habitat suitability can lead to range shifts, population declines, and increased extinction risk. Species may attempt to migrate to more suitable climates, but barriers like human development or geographic limitations can prevent successful relocation.  This can lead to population fragmentation and reduced genetic diversity, increasing vulnerability to disease and further decline.
+
+Assumptions:
+1. Species will attempt to migrate in response to climate change.
+2. Geographic barriers can limit species migration.
+3. Population fragmentation reduces genetic diversity.
+4. Reduced genetic diversity increases vulnerability to disease.
+5. Population decline increases extinction risk.
+2025-05-20 15:00:46,275 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:00:46,275 - 3WayCoT - INFO - Step 3: Climate change can also disrupt ecological interactions, such as predator-prey relationships and symbiotic partnerships.  Changes in the timing of seasonal events (phenology) can misalign crucial interactions, leading to cascading effects throughout the ecosystem. For example, if a predator's migration is delayed, its prey population might experience uncontrolled growth before the predator arrives.
+
+Assumptions:
+1. Species interactions are crucial for ecosystem stability.
+2. Climate change alters the timing of seasonal events (phenology).
+3. Mismatched phenology can disrupt species interactions.
+4. Disrupted interactions can lead to cascading effects.
+5. Predator-prey relationships are sensitive to environmental changes.
+2025-05-20 15:00:46,275 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:00:46,275 - 3WayCoT - INFO - Step 4: Ocean acidification, a consequence of increased atmospheric CO2, directly impacts marine ecosystems.  Increased acidity reduces the ability of marine organisms like corals and shellfish to build and maintain their shells and skeletons, threatening their survival and impacting the entire marine food web.
+
+Assumptions:
+1. Increased atmospheric CO2 causes ocean acidification.
+2. Ocean acidification reduces shell and skeleton formation in marine organisms.
+3. Coral reefs and shellfish are sensitive to ocean acidification.
+4. Marine food webs are interconnected and vulnerable to changes in keystone species.
+5. Ocean acidification has negative impacts on marine biodiversity.
+2025-05-20 15:00:46,276 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:00:46,276 - 3WayCoT - INFO - Step 5: The combined effects of habitat loss, altered interactions, and ocean acidification lead to a net loss of biodiversity.  The rate of species extinctions is projected to increase significantly under various climate change scenarios, potentially leading to irreversible ecosystem changes and loss of ecosystem services.
+
+Assumptions:
+1. Climate change is a significant driver of biodiversity loss.
+2. Multiple stressors act synergistically to exacerbate biodiversity loss.
+3. Extinction rates are increasing due to climate change.
+4. Ecosystem services are dependent on biodiversity.
+5. Loss of biodiversity can have irreversible consequences.
+2025-05-20 15:00:46,276 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:00:46,276 - 3WayCoT - INFO - Step 6: Final Answer: Climate change significantly impacts biodiversity through habitat alteration, disrupted ecological interactions, ocean acidification, and increased extinction rates, leading to a net loss of biodiversity and potentially irreversible ecosystem changes.
+2025-05-20 15:00:46,277 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.95
+2025-05-20 15:00:46,277 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 15:00:46,278 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 15:00:46,278 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-20 15:00:46,278 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 15:00:46,279 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 15:00:46,279 - 3WayCoT - ERROR - Error in 3WayCoT execution: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 506, in main
+    phase1_pipeline(args)
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\main.py", line 328, in phase1_pipeline
+    step_decision = decision_maker.decide_step(temp_step, analysis, uncertainty_analysis, i)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\src\core\three_way_decision.py", line 112, in decide_step
+    metrics = self._calculate_decision_metrics(step, analysis, uncertainty, step_index)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\src\core\three_way_decision.py", line 160, in _calculate_decision_metrics
+    covered = sum(1 for a in step['assumptions'] if a.get('covered', False))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\src\core\three_way_decision.py", line 160, in <genexpr>
+    covered = sum(1 for a in step['assumptions'] if a.get('covered', False))
+                                                    ^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-20 15:05:03,435 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 15:05:03,436 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 15:05:03,436 - 3WayCoT - INFO - Running Phase 1
+2025-05-20 15:05:03,436 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 15:05:03,436 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 15:05:03,437 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 15:05:03,438 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 15:05:04,127 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 15:05:04,128 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 15:05:04,128 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 15:05:04,128 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 15:05:09,488 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 15:05:09,489 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 15:05:09,489 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 15:05:09,490 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,491 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,491 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 15:05:09,491 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,492 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,492 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 15:05:09,492 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,492 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,492 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 15:05:09,493 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,493 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,493 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 15:05:09,494 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,494 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:05:09,494 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 15:05:09,495 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.95']
+2025-05-20 15:05:09,495 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.95']
+2025-05-20 15:05:09,495 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 15:05:09,495 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 16
+2025-05-20 15:05:09,495 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 15:05:09,496 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 15:05:09,496 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 15:05:09,496 - 3WayCoT - INFO - Step 1: Climate change alters habitats through rising temperatures, altered precipitation patterns, and increased frequency of extreme weather events.  This directly impacts the survival and distribution of species.
+
+Assumptions:
+1.  Temperature increases are primarily driven by anthropogenic greenhouse gas emissions.
+2.  Changes in precipitation patterns are significantly correlated with climate change.
+3.  Extreme weather events (e.g., droughts, floods, wildfires) are increasing in frequency and intensity due to climate change.
+4.  Species have limited capacity to adapt to rapid environmental changes.
+5.  Habitat alteration is a primary driver of biodiversity loss.
+2025-05-20 15:05:09,496 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:05:09,496 - 3WayCoT - INFO - Step 2: Changing climate conditions can disrupt ecological interactions, such as predator-prey relationships and symbiotic partnerships, leading to cascading effects throughout ecosystems.
+
+Assumptions:
+1.  Species interactions are finely balanced and sensitive to environmental shifts.
+2.  Disruptions to key ecological interactions can trigger population declines or extinctions.
+3.  The impacts of climate change on different species are not uniform and can vary widely.
+4.  Ecological interactions are complex and difficult to fully model or predict.
+5.  Cascading effects can amplify the initial impact of climate change on biodiversity.
+2025-05-20 15:05:09,497 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:05:09,497 - 3WayCoT - INFO - Step 3: Ocean acidification, a direct consequence of increased atmospheric CO2, negatively impacts marine ecosystems, particularly organisms with calcium carbonate shells or skeletons.
+
+Assumptions:
+1.  Increased atmospheric CO2 dissolves in the ocean, lowering its pH.
+2.  Ocean acidification directly affects the ability of marine organisms to build and maintain shells and skeletons.
+3.  Marine organisms play crucial roles in maintaining marine ecosystem function.
+4.  The impacts of ocean acidification are widespread and affect diverse marine species.
+5.  Current models accurately reflect the relationship between atmospheric CO2 and ocean acidification.
+2025-05-20 15:05:09,497 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:05:09,498 - 3WayCoT - INFO - Step 4: Range shifts, where species migrate to more suitable climates, can lead to competition with existing species, habitat loss for other species, and altered community composition.
+
+Assumptions:
+1.  Species have varying capacities for dispersal and migration.
+2.  Range shifts are driven by changes in temperature and precipitation.
+3.  Competition for resources can lead to population declines or extinctions.
+4.  Species interactions in novel communities are unpredictable.
+5.  Habitat suitability is primarily determined by climatic factors.
+2025-05-20 15:05:09,498 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:05:09,498 - 3WayCoT - INFO - Step 5: The combined effects of habitat loss, altered interactions, ocean acidification, and range shifts contribute to a significant overall decline in biodiversity across various ecosystems.
+
+Assumptions:
+1.  Biodiversity loss is a multifaceted problem with multiple contributing factors.
+2.  The combined effects of climate change impacts are synergistic and amplify negative outcomes.
+3.  Current biodiversity loss rates are unsustainable in the long term.
+4.  Accurate assessment of biodiversity loss requires comprehensive monitoring and data analysis.
+5.  Climate change is a primary driver of current biodiversity loss.
+2025-05-20 15:05:09,498 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:05:09,498 - 3WayCoT - INFO - Step 6: Final Answer: Climate change has profound and multifaceted impacts on biodiversity, leading to habitat loss, disrupted ecological interactions, ocean acidification, and range shifts, ultimately resulting in a significant overall decline in biodiversity across various ecosystems.
+2025-05-20 15:05:09,499 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.95
+2025-05-20 15:05:09,499 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 15:05:09,499 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 15:05:09,499 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-20 15:05:09,500 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 15:05:09,500 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 15:05:09,501 - 3WayCoT - INFO - Results saved to results.json
+2025-05-20 15:05:09,501 - 3WayCoT - INFO - Phase 1 pipeline complete
+2025-05-20 15:05:09,501 - 3WayCoT - INFO - Total reasoning steps: 6
+2025-05-20 15:05:09,501 - 3WayCoT - INFO - Accepted steps: 0
+2025-05-20 15:05:09,501 - 3WayCoT - INFO - Rejected steps: 0
+2025-05-20 15:05:09,502 - 3WayCoT - INFO - Uncertain steps: 0
+2025-05-20 15:05:09,502 - 3WayCoT - INFO - 3WayCoT Framework completed successfully
+2025-05-20 15:21:23,734 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 15:21:23,734 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 15:21:23,735 - 3WayCoT - INFO - Running Phase 1
+2025-05-20 15:21:23,735 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 15:21:23,735 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 15:21:23,735 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 15:21:23,737 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 15:21:24,487 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 15:21:24,488 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 15:21:24,488 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 15:21:24,488 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 15:21:30,051 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 15:21:30,052 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 15:21:30,053 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 15:21:30,054 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,054 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,054 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 15:21:30,054 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,055 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,055 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 15:21:30,055 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 15:21:30,056 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,057 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:21:30,057 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 15:21:30,057 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.95']
+2025-05-20 15:21:30,057 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.95']
+2025-05-20 15:21:30,058 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 15:21:30,058 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 16
+2025-05-20 15:21:30,058 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 15:21:30,058 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 15:21:30,058 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 15:21:30,058 - 3WayCoT - INFO - Step 1: Climate change alters habitats through temperature increases, sea-level rise, and altered precipitation patterns.  These alterations directly impact the survival and reproduction of species.  Species adapted to specific climatic conditions will struggle to survive outside their optimal range.
+
+Assumptions:
+1. Temperature increases are primarily driven by anthropogenic greenhouse gas emissions.
+2. Sea-level rise is primarily driven by thermal expansion and melting glaciers/ice sheets.
+3. Altered precipitation patterns are significantly influenced by climate change.
+4. Species have limited capacity for adaptation and migration.
+5. Habitat loss directly correlates with biodiversity loss.
+2025-05-20 15:21:30,059 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:21:30,059 - 3WayCoT - INFO - Step 2: Changes in habitat lead to range shifts, where species attempt to migrate to more suitable climates. However, barriers like human development and fragmented landscapes can prevent successful migration, leading to population declines and extinctions.
+
+Assumptions:
+1. Species will attempt to migrate in response to habitat loss.
+2. Human infrastructure significantly restricts species migration.
+3. Habitat fragmentation reduces connectivity between suitable habitats.
+4.  Successful migration requires sufficient time and resources.
+5. Failure to migrate results in population decline and potential extinction.
+2025-05-20 15:21:30,059 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:21:30,060 - 3WayCoT - INFO - Step 3: Increased frequency and intensity of extreme weather events (e.g., droughts, floods, wildfires) cause immediate mortality and disrupt ecological processes, further impacting biodiversity.  These events can destabilize ecosystems, making them more vulnerable to subsequent disturbances.
+
+Assumptions:
+1. Climate change increases the frequency and intensity of extreme weather events.
+2. Extreme weather events cause direct mortality of species.
+3. Extreme weather events disrupt crucial ecological processes (e.g., pollination, nutrient cycling).
+4. Ecosystem stability is essential for biodiversity maintenance.
+5. Ecosystem resilience is diminished by climate change.
+2025-05-20 15:21:30,060 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:21:30,060 - 3WayCoT - INFO - Step 4: Ocean acidification, caused by increased CO2 absorption by the oceans, negatively affects marine organisms, particularly those with calcium carbonate shells or skeletons (e.g., corals, shellfish).  This impacts entire marine food webs and coastal ecosystems.
+
+Assumptions:
+1. Increased atmospheric CO2 leads to ocean acidification.
+2. Ocean acidification directly harms organisms with calcium carbonate structures.
+3. Changes in marine ecosystems propagate through food webs.
+4. Coastal ecosystems are particularly vulnerable to ocean acidification.
+5. The rate of ocean acidification is significantly influenced by human activities.
+2025-05-20 15:21:30,060 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:21:30,061 - 3WayCoT - INFO - Step 5: Changes in the timing of seasonal events (phenology), such as flowering or migration, can disrupt the synchrony between species, impacting interactions such as pollination and predator-prey relationships.  This mismatch can lead to population declines.
+
+Assumptions:
+1. Climate change alters the timing of seasonal events.
+2. Species interactions are dependent on precise timing.
+3. Phenological mismatch negatively impacts species interactions.
+4. Disruptions in species interactions can lead to population declines.
+5.  The degree of phenological mismatch is directly related to the rate of climate change.
+2025-05-20 15:21:30,061 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:21:30,061 - 3WayCoT - INFO - Step 6: Final Answer: Climate change has multifaceted and significant negative impacts on biodiversity, including habitat loss, range shifts hindered by barriers, increased mortality from extreme weather events, ocean acidification affecting marine life, and disruptions to species interactions due to phenological mismatches. These impacts lead to population declines and extinctions, reducing overall biodiversity.
+2025-05-20 15:21:30,061 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.95
+2025-05-20 15:21:30,061 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 15:21:30,061 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 15:21:30,062 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-20 15:21:30,062 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 15:21:30,062 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 15:21:30,063 - 3WayCoT - INFO - Results saved to results.json
+2025-05-20 15:21:30,063 - 3WayCoT - INFO - Phase 1 pipeline complete
+2025-05-20 15:21:30,064 - 3WayCoT - INFO - Total reasoning steps: 6
+2025-05-20 15:21:30,064 - 3WayCoT - INFO - Accepted steps: 0
+2025-05-20 15:21:30,064 - 3WayCoT - INFO - Rejected steps: 0
+2025-05-20 15:21:30,064 - 3WayCoT - INFO - Uncertain steps: 0
+2025-05-20 15:21:30,064 - 3WayCoT - INFO - 3WayCoT Framework completed successfully
+2025-05-20 15:33:51,086 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 15:33:51,086 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 15:33:51,086 - 3WayCoT - INFO - Running Phase 2
+2025-05-20 15:33:51,087 - 3WayCoT - INFO - Starting Phase 2 pipeline (with uncertainty resolution)
+2025-05-20 15:33:51,087 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 15:33:51,087 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 15:33:51,087 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 15:33:51,088 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 15:33:51,813 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 15:33:51,813 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 15:33:51,814 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: What are the impacts of climate change on biodiversity?
+2025-05-20 15:33:51,814 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 15:33:57,631 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 15:33:57,632 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-20 15:33:57,632 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 15:33:57,633 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,633 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,634 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 15:33:57,634 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,634 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,634 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 15:33:57,635 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,635 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,635 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 15:33:57,635 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,635 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,636 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 15:33:57,636 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,636 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:33:57,636 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-20 15:33:57,637 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.85']
+2025-05-20 15:33:57,637 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.85']
+2025-05-20 15:33:57,637 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-20 15:33:57,637 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 16
+2025-05-20 15:33:57,638 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 15:33:57,638 - 3WayCoT - INFO - Generated 6 reasoning steps:
+2025-05-20 15:33:57,638 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 15:33:57,638 - 3WayCoT - INFO - Step 1: Climate change alters habitats, primarily through temperature increases, altered precipitation patterns, and increased frequency of extreme weather events.  This directly impacts species' ability to survive and reproduce in their current ranges.
+
+Assumptions:
+1. Temperature increases are the primary driver of habitat alteration.
+2. Altered precipitation patterns significantly impact habitat suitability.
+3. Extreme weather events cause disproportionate damage to ecosystems.
+4. Species have limited capacity to adapt to rapid environmental change.
+5. Habitat loss is a major driver of biodiversity loss.
+2025-05-20 15:33:57,638 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:33:57,638 - 3WayCoT - INFO - Step 2: Shifting climate zones force species to migrate or adapt.  Species with limited dispersal abilities or narrow ecological niches are particularly vulnerable to extinction.  This leads to a decline in species richness and overall biodiversity.
+
+Assumptions:
+1. Species migration is limited by geographical barriers and human infrastructure.
+2. Adaptive capacity varies significantly among species.
+3. Extinction is the ultimate consequence of inability to migrate or adapt.
+4. Species richness is a valid measure of biodiversity.
+5.  Current species distribution data is sufficiently accurate for modelling.
+2025-05-20 15:33:57,639 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:33:57,639 - 3WayCoT - INFO - Step 3: Ocean acidification, caused by increased CO2 absorption, negatively impacts marine ecosystems, particularly coral reefs and shellfish populations. This leads to cascading effects throughout the food web, affecting biodiversity at multiple trophic levels.
+
+Assumptions:
+1. Increased CO2 levels directly cause ocean acidification.
+2. Coral reefs are highly sensitive to changes in ocean pH.
+3. Shellfish are particularly vulnerable to ocean acidification.
+4. Changes in lower trophic levels have cascading effects on higher trophic levels.
+5.  Current understanding of ocean acidification's effects is sufficiently accurate.
+2025-05-20 15:33:57,639 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:33:57,639 - 3WayCoT - INFO - Step 4: Increased frequency and intensity of extreme weather events, such as wildfires, floods, and droughts, cause habitat destruction and mortality events, directly reducing populations of many species. These events can also disrupt ecological interactions, further impacting biodiversity.
+
+Assumptions:
+1. Climate change is the primary driver of increased extreme weather events.
+2. Wildfires, floods, and droughts are significant threats to biodiversity.
+3. Species interactions are disrupted by extreme weather events.
+4.  Population reduction directly correlates with biodiversity loss.
+5.  Current models accurately predict the frequency and intensity of future extreme weather.
+2025-05-20 15:33:57,640 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:33:57,640 - 3WayCoT - INFO - Step 5: Changes in the timing of seasonal events (phenology) can disrupt ecological interactions, such as predator-prey relationships and pollination, leading to population declines and reduced biodiversity.  Mismatches between species' life cycles can have severe consequences.
+
+Assumptions:
+1. Climate change is altering the timing of seasonal events.
+2. Phenological mismatches negatively impact species interactions.
+3. Predator-prey relationships are particularly vulnerable to phenological shifts.
+4. Pollination is crucial for the survival of many plant species.
+5.  Current understanding of phenological changes and their impacts is adequate.
+2025-05-20 15:33:57,640 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:33:57,640 - 3WayCoT - INFO - Step 6: Final Answer: Climate change significantly impacts biodiversity through habitat alteration, range shifts, ocean acidification, increased frequency of extreme weather events, and disruptions to ecological interactions.  This leads to declines in species richness, population sizes, and overall biodiversity, with disproportionate impacts on species with limited dispersal abilities or narrow ecological niches.
+2025-05-20 15:33:57,641 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.85
+2025-05-20 15:33:57,641 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 15:33:57,641 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 15:33:57,641 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-20 15:33:57,641 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 15:33:57,641 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 15:33:57,642 - 3WayCoT - INFO - Results saved to results.json
+2025-05-20 15:33:57,642 - 3WayCoT - INFO - Phase 1 pipeline complete
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - Total reasoning steps: 6
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - Accepted steps: 0
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - Rejected steps: 0
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - Uncertain steps: 0
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - No uncertain steps found, skipping uncertainty resolution
+2025-05-20 15:33:57,643 - 3WayCoT - INFO - 3WayCoT Framework completed successfully
+2025-05-20 15:37:41,328 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Running Phase 2
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Starting Phase 2 pipeline (with uncertainty resolution)
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-20 15:37:41,329 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-20 15:37:41,330 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-20 15:37:42,007 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-20 15:37:42,007 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-20 15:37:42,007 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: Explain the feasibility of the many-worlds interpretation of quantum mechanics compared to other interpretations. Which interpretation best explains quantum entanglement?
+2025-05-20 15:37:42,007 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-20 15:37:49,190 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-20 15:37:49,191 - 3WayCoT.COTGenerator - INFO - Extracted 5 reasoning steps
+2025-05-20 15:37:49,191 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-20 15:37:49,192 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: Currently undetectable']
+2025-05-20 15:37:49,192 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (1): ['Implicit assumption: Currently undetectable']
+2025-05-20 15:37:49,192 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-20 15:37:49,192 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,192 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,193 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-20 15:37:49,193 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,193 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,193 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 5 (expected up to 5). Assumptions: ['Confidence level: 0.7']
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (1): ['Confidence level: 0.7']
+2025-05-20 15:37:49,194 - 3WayCoT.COTGenerator - INFO - Generated 5 reasoning steps with assumptions
+2025-05-20 15:37:49,195 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 11
+2025-05-20 15:37:49,195 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-20 15:37:49,195 - 3WayCoT - INFO - Generated 5 reasoning steps:
+2025-05-20 15:37:49,195 - 3WayCoT - INFO - Keys in first reasoning step: ['step_num', 'reasoning', 'assumptions', 'extracted_assumptions', 'annotated_reasoning']
+2025-05-20 15:37:49,195 - 3WayCoT - INFO - Step 1: Evaluating the Many-Worlds Interpretation (MWI) feasibility.  The MWI posits that every quantum measurement causes the universe to split into multiple universes, each representing a possible outcome.  This avoids the need for wave function collapse.  Its feasibility hinges on its testability and explanatory power compared to alternatives.
+
+Assumptions:
+1. The universe is governed by the laws of quantum mechanics.
+2.  Quantum mechanics accurately describes reality at all scales.
+3.  Observable consequences of MWI are theoretically possible, even if currently undetectable.
+4.  Alternative interpretations of quantum mechanics are equally valid until proven otherwise.
+5.  Scientific theories should be judged based on their explanatory power and predictive accuracy.
+2025-05-20 15:37:49,196 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:37:49,196 - 3WayCoT - INFO - Step 2: Comparing MWI to other interpretations (e.g., Copenhagen, Bohmian mechanics).  The Copenhagen interpretation relies on wave function collapse, a process not fully understood. Bohmian mechanics introduces hidden variables to provide deterministic outcomes.  Each interpretation tackles the measurement problem differently. MWI offers a conceptually simpler solution to the measurement problem by eliminating the need for collapse. However, it introduces the problem of unobservable parallel universes.
+
+Assumptions:
+1.  The measurement problem is a legitimate challenge for quantum mechanics.
+2.  The "simplicity" of a theory is a relevant criterion for its assessment.
+3.  The existence of unobservable phenomena is not inherently a disqualification of a theory.
+4.  The explanatory power of a theory is judged by its ability to account for experimental results.
+5.  Hidden variables in Bohmian mechanics are not fundamentally more problematic than parallel universes in MWI.
+2025-05-20 15:37:49,196 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:37:49,197 - 3WayCoT - INFO - Step 3: Analyzing MWI's explanation of quantum entanglement.  Entanglement, where two particles are correlated regardless of distance, is naturally explained by MWI.  The entangled particles exist in a superposition across multiple universes, and the measurement in one universe determines the state in all related universes.  Other interpretations struggle to explain the instantaneous correlation without invoking faster-than-light communication, which is usually considered problematic.
+
+
+Assumptions:
+1.  Quantum entanglement is a real phenomenon and not an artifact of our measurement apparatus.
+2.  Instantaneous correlation between entangled particles implies a non-local connection.
+3.  Faster-than-light communication violates special relativity (a core assumption of physics).
+4.  A successful interpretation of quantum mechanics should explain entanglement without violating established physical laws.
+5.  The concept of a superposition across multiple universes is logically consistent within the framework of MWI.
+2025-05-20 15:37:49,197 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:37:49,197 - 3WayCoT - INFO - Step 4: Assessing the overall feasibility and explanatory power.  While MWI elegantly solves the measurement problem and entanglement, its untestability remains a major limitation.  The lack of empirical evidence poses a challenge to its acceptance as a complete theory.  Other interpretations, despite their own challenges, are often preferred because they are, at least in principle, falsifiable.
+
+
+Assumptions:
+1.  A scientific theory should be, at least in principle, empirically testable.
+2.  Falsifiability is a necessary condition for a theory to be considered scientific.
+3.  Occam's Razor (simplest explanation is preferred) is a guiding principle in scientific reasoning.
+4.  The absence of evidence is not necessarily evidence of absence.
+5.  The theoretical elegance of a theory does not automatically guarantee its truth.
+2025-05-20 15:37:49,198 - 3WayCoT - INFO -   Assumptions: 
+2025-05-20 15:37:49,198 - 3WayCoT - INFO - Step 5: Final Answer: While the Many-Worlds Interpretation offers a compelling explanation for quantum entanglement and the measurement problem, its lack of testability and the existence of alternative interpretations limit its feasibility compared to other interpretations.  Whether it *best* explains entanglement is debatable, as other interpretations offer alternative, albeit less conceptually straightforward, solutions.
+2025-05-20 15:37:49,198 - 3WayCoT - INFO -   Assumptions: Confidence level: 0.7
+2025-05-20 15:37:49,198 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-20 15:37:49,198 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-20 15:37:49,199 - 3WayCoT - INFO - Generated 3 concepts from 5 reasoning steps
+2025-05-20 15:37:49,199 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-20 15:37:49,199 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Results saved to results.json
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Phase 1 pipeline complete
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Total reasoning steps: 5
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Accepted steps: 0
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Rejected steps: 0
+2025-05-20 15:37:49,200 - 3WayCoT - INFO - Uncertain steps: 0
+2025-05-20 15:37:49,201 - 3WayCoT - INFO - No uncertain steps found, skipping uncertainty resolution
+2025-05-20 15:37:49,201 - 3WayCoT - INFO - 3WayCoT Framework completed successfully
+2025-05-21 16:34:13,011 - 3WayCoT - INFO - 3WayCoT Framework starting
+2025-05-21 16:34:13,012 - 3WayCoT - INFO - Using LLM provider: gemini
+2025-05-21 16:34:13,012 - 3WayCoT - INFO - Running Phase 1
+2025-05-21 16:34:13,012 - 3WayCoT - INFO - Starting Phase 1 pipeline
+2025-05-21 16:34:13,012 - 3WayCoT - INFO - Initializing Chain-of-Thought Generator with provider gemini
+2025-05-21 16:34:13,012 - 3WayCoT - INFO - Using model: gemini-1.5-flash
+2025-05-21 16:34:13,021 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-21 16:34:14,057 - 3WayCoT.COTGenerator - INFO - Initialized Google Gemini LLM: gemini-1.5-flash
+2025-05-21 16:34:14,058 - 3WayCoT - INFO - Generating reasoning steps from prompt
+2025-05-21 16:34:14,058 - 3WayCoT.COTGenerator - INFO - Generating reasoning steps for query: Explain the Three-Way Decision framework
+2025-05-21 16:34:14,058 - 3WayCoT.COTGenerator - INFO - Querying LLM using provider: gemini
+2025-05-21 16:34:20,060 - 3WayCoT.COTGenerator - INFO - Extracting reasoning steps from LLM response
+2025-05-21 16:34:20,061 - 3WayCoT.COTGenerator - INFO - Extracted 6 reasoning steps
+2025-05-21 16:34:20,061 - 3WayCoT.COTGenerator - INFO - Processing step 1 for assumptions extraction
+2025-05-21 16:34:20,062 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 1 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,063 - 3WayCoT.COTGenerator - INFO - Step 1 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,063 - 3WayCoT.COTGenerator - INFO - Processing step 2 for assumptions extraction
+2025-05-21 16:34:20,063 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 2 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,064 - 3WayCoT.COTGenerator - INFO - Step 2 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,064 - 3WayCoT.COTGenerator - INFO - Processing step 3 for assumptions extraction
+2025-05-21 16:34:20,064 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 3 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,065 - 3WayCoT.COTGenerator - INFO - Step 3 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,066 - 3WayCoT.COTGenerator - INFO - Processing step 4 for assumptions extraction
+2025-05-21 16:34:20,066 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 4 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,066 - 3WayCoT.COTGenerator - INFO - Step 4 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,066 - 3WayCoT.COTGenerator - INFO - Processing step 5 for assumptions extraction
+2025-05-21 16:34:20,066 - 3WayCoT.COTGenerator - INFO - Only 3 assumptions found for step 5 (expected up to 5). Assumptions: ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Step 5 final assumptions (3): ['Implicit assumption: The reasoning is based on complete and accurate information.', 'Implicit assumption: The context provided is sufficient for drawing conclusions.', 'Implicit assumption: Standard conditions and constraints apply unless stated otherwise.']
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Processing step 6 for assumptions extraction
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Only 1 assumptions found for step 6 (expected up to 5). Assumptions: ['Confidence level: 0.92']
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Step 6 final assumptions (1): ['Confidence level: 0.92']
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Generated 6 reasoning steps with assumptions
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Total assumptions across all steps: 16
+2025-05-21 16:34:20,067 - 3WayCoT.COTGenerator - INFO - Max assumptions per step: 5
+2025-05-21 16:34:20,067 - 3WayCoT - INFO - Initializing InvertedTriadicFuzzyAnalysis for Triadic Context generation and Lattice building
+2025-05-21 16:34:20,067 - 3WayCoT - INFO - Analyzing reasoning steps to build triadic context and concept lattice
+2025-05-21 16:34:20,069 - 3WayCoT.ConfidenceExtractor - INFO - Step 1: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,069 - 3WayCoT.ConfidenceExtractor - INFO - Step 2: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,069 - 3WayCoT.ConfidenceExtractor - INFO - Step 3: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,069 - 3WayCoT.ConfidenceExtractor - INFO - Step 4: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,069 - 3WayCoT.ConfidenceExtractor - INFO - Step 5: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,070 - 3WayCoT.ConfidenceExtractor - INFO - Step 6: Extracted confidence 0.50 (medium)
+2025-05-21 16:34:20,070 - 3WayCoT - INFO - Generated 3 concepts from 6 reasoning steps
+2025-05-21 16:34:20,070 - 3WayCoT - INFO - Initializing Three-Way Decision Maker
+2025-05-21 16:34:20,070 - 3WayCoT - INFO - Making three-way decisions for each reasoning step
+2025-05-21 16:34:20,070 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 1: Using confidence value: 0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.50, reject=0.50, abstain=0.20, confidence=0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 2: Using confidence value: 0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.50, reject=0.50, abstain=0.20, confidence=0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 3: Using confidence value: 0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.50, reject=0.50, abstain=0.20, confidence=0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 4: Using confidence value: 0.50
+2025-05-21 16:34:20,071 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.50, reject=0.50, abstain=0.20, confidence=0.50
+2025-05-21 16:34:20,072 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 5: Using confidence value: 0.50
+2025-05-21 16:34:20,072 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.50, reject=0.50, abstain=0.20, confidence=0.50
+2025-05-21 16:34:20,072 - 3WayCoT.ThreeWayDecisionMaker - INFO - Step 6: Using confidence value: 0.40
+2025-05-21 16:34:20,072 - 3WayCoT.ThreeWayDecisionMaker - INFO - Membership degrees: accept=0.44, reject=0.56, abstain=0.26, confidence=0.40
+2025-05-21 16:34:20,073 - 3WayCoT - INFO - Results saved to results.json
+2025-05-21 16:34:20,073 - 3WayCoT - INFO - Phase 1 pipeline complete
+2025-05-21 16:34:20,073 - 3WayCoT - INFO - Total reasoning steps: 6
+2025-05-21 16:34:20,074 - 3WayCoT - INFO - Accepted steps: 0
+2025-05-21 16:34:20,074 - 3WayCoT - INFO - Rejected steps: 0
+2025-05-21 16:34:20,074 - 3WayCoT - INFO - Uncertain steps: 0
+2025-05-21 16:34:20,074 - 3WayCoT - INFO - 3WayCoT Framework completed successfully
+2025-05-21 17:27:09,700 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-21 17:27:10,957 - 3WayCoT.COTGenerator - INFO - Initialized OpenAI LLM: gpt-4
+2025-05-21 17:27:10,957 - 3WayCoT.UncertaintyResolver - INFO - Initialized UncertaintyResolver with relevance_threshold=0.7, validity_threshold=0.6
+2025-05-21 17:27:10,957 - 3WayCoT.UncertaintyResolver - INFO - Using CoT Generator: ChainOfThoughtGenerator
+2025-05-21 17:27:10,958 - 3WayCoT.App - INFO - 3WayCoT application initialized
+2025-05-21 17:29:38,038 - 3WayCoT.Config - INFO - Loaded configuration from D:\Research2023\3WayCoT\3waycot-framework.v3\config.json
+2025-05-21 17:29:38,781 - 3WayCoT.COTGenerator - INFO - Initialized OpenAI LLM: gpt-4
+2025-05-21 17:29:38,782 - 3WayCoT.UncertaintyResolver - INFO - Initialized UncertaintyResolver with relevance_threshold=0.7, validity_threshold=0.6
+2025-05-21 17:29:38,783 - 3WayCoT.UncertaintyResolver - INFO - Using CoT Generator: ChainOfThoughtGenerator
+2025-05-21 17:29:38,783 - 3WayCoT.App - INFO - 3WayCoT application initialized
+2025-05-21 17:29:38,784 - 3WayCoT.App - INFO - Processing prompt: Explain how machine learning works...
+2025-05-21 17:29:38,784 - 3WayCoT.App - ERROR - Error processing prompt: 'ThreeWayCOT' object has no attribute 'generate_chain_of_thought'
+Traceback (most recent call last):
+  File "D:\Research2023\3WayCoT\3waycot-framework.v3\3way_app.py", line 118, in process_prompt
+    reasoning_steps = self.framework.generate_chain_of_thought(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ThreeWayCOT' object has no attribute 'generate_chain_of_thought'
+2025-05-21 22:58:50,537 - root - ERROR - Application error: ThreeWayCOT.__init__() got an unexpected keyword argument 'knowledge_base'
+2025-05-21 22:59:09,412 - root - ERROR - Application error: ThreeWayCOT.__init__() got an unexpected keyword argument 'knowledge_base'

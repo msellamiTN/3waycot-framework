@@ -1,0 +1,147 @@
+[
+    {
+      "Steps": "Step 1: Understand the user's request and the complexity of 'persistent headaches'.",
+      "reasoning": [
+        "The user is asking for an analysis of potential causes and treatments for 'persistent headaches' in adults.",
+        "'Persistent headache' is a descriptive term for a symptom (headache that occurs frequently or continuously), not a specific diagnosis.",
+        "Headaches have a vast differential diagnosis, ranging from benign primary headache disorders to serious underlying medical conditions."
+      ],
+      "Assumptions": [
+        "The user is seeking general medical information about persistent headaches.",
+        "The analysis should cover common and significant potential causes.",
+        "The analysis should cover common treatment approaches related to these causes."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "This analysis provides general information and should not be considered medical advice for any specific individual.",
+        "The term 'persistent' can be subjective, but generally implies headaches occurring on many days of the month or being continuous."
+      ]
+    },
+    {
+      "Steps": "Step 2: Identify the primary classification of headaches.",
+      "reasoning": [
+        "Headaches are typically classified into primary and secondary types.",
+        "This classification is fundamental to understanding the potential causes and guides the diagnostic approach.",
+        "Primary headaches are disorders in themselves, while secondary headaches are symptoms of another condition."
+      ],
+      "Assumptions": [
+        "A standard medical classification system is being used (e.g., International Classification of Headache Disorders - ICHD)."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "Some headaches can have features of both primary and secondary types, or a primary headache disorder can be exacerbated by a secondary cause (e.g., migraine with medication overuse headache)."
+      ]
+    },
+    {
+      "Steps": "Step 3: Detail potential causes within the 'Primary Headache' category.",
+      "reasoning": [
+        "Persistent headaches often fall under the category of chronic primary headache disorders.",
+        "Identify the most common primary headache types that can become persistent: Chronic Migraine, Chronic Tension-Type Headache, New Daily Persistent Headache (NDPH), and sometimes Chronic Cluster Headache."
+      ],
+      "Assumptions": [
+        "These are the most clinically relevant and common primary headache types that present as persistent problems in adults."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "Other less common primary headache disorders exist that could potentially be persistent.",
+        "The diagnostic criteria for these chronic types require specific frequency and duration patterns."
+      ]
+    },
+    {
+      "Steps": "Step 4: Detail potential causes within the 'Secondary Headache' category.",
+      "reasoning": [
+        "Persistent headaches can be a symptom of various underlying medical conditions.",
+        "It is crucial to consider and rule out secondary causes, as some can be serious.",
+        "Identify common or significant secondary causes that can manifest as persistent headaches, such as Medication Overuse Headache (MOH), infections, structural issues (tumors, vascular malformations), cerebrospinal fluid pressure problems, post-traumatic headaches, and others."
+      ],
+      "Assumptions": [
+        "The listed secondary causes represent a significant portion of potential underlying issues.",
+        "A medical investigation would be necessary to definitively diagnose or rule out these causes."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "This list is not exhaustive; numerous other rare medical conditions can potentially cause persistent headaches.",
+        "'Red flags' in a patient's history or examination are critical indicators suggesting a secondary cause and requiring urgent investigation."
+      ]
+    },
+    {
+      "Steps": "Step 5: Analyze the relationship between causes and treatments.",
+      "reasoning": [
+        "Effective treatment for persistent headaches is directly dependent on accurately identifying the underlying cause or the specific type of primary headache disorder.",
+        "Treatments that are effective for one type of headache may be ineffective or even harmful for another."
+      ],
+      "Assumptions": [
+        "Treatment aims to reduce headache frequency and severity, improve quality of life, and address the root cause if secondary."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "Some treatments may have efficacy across different headache types (e.g., certain lifestyle modifications or pain management techniques).",
+        "In some cases, particularly with primary headache disorders, the exact pathophysiology is not fully understood, and treatment is based on managing symptoms and triggers."
+      ]
+    },
+    {
+      "Steps": "Step 6: Detail treatment approaches, starting with Pharmacological.",
+      "reasoning": [
+        "Pharmacological treatments are a cornerstone of managing many persistent headaches, both for acute relief and prevention.",
+        "Distinguish between acute/abortive treatments (taken to stop a headache) and preventive treatments (taken regularly to reduce headache burden).",
+        "Provide examples of common medication classes used in both categories, noting that specific drug choices depend on the headache type."
+      ],
+      "Assumptions": [
+        "Common pharmacological interventions for chronic headache disorders are being discussed.",
+        "Access to prescription and over-the-counter medications is implied."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "Specific drug choices and dosages must be determined by a healthcare professional.",
+        "Medication side effects, interactions, and contraindications must be considered."
+      ]
+    },
+    {
+      "Steps": "Step 7: Detail Non-Pharmacological treatment approaches.",
+      "reasoning": [
+        "Non-pharmacological strategies are important adjuncts or alternatives to medication for persistent headaches.",
+        "These approaches often focus on lifestyle factors, behavioral changes, and physical therapies.",
+        "Identify key areas like lifestyle modifications (sleep, diet, exercise, trigger avoidance), behavioral therapies (biofeedback, CBT), and physical/complementary therapies (physical therapy, acupuncture)."
+      ],
+      "Assumptions": [
+        "Patients are willing and able to make lifestyle changes or engage in therapy.",
+        "Access to these types of therapies is possible."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "The effectiveness of specific non-pharmacological treatments can vary greatly among individuals and headache types.",
+        "Some non-pharmacological approaches may not be suitable or sufficient for severe persistent headaches, especially those with underlying medical causes."
+      ]
+    },
+    {
+      "Steps": "Step 8: Include the importance of professional medical evaluation and ongoing management.",
+      "reasoning": [
+        "Given the wide range of potential causes, including serious ones, and the complexity of treatment, a proper diagnosis by a healthcare professional is essential.",
+        "Effective management of persistent headaches often requires a long-term relationship with a healthcare provider and a tailored treatment plan that may need adjustment over time."
+      ],
+      "Assumptions": [
+        "The user understands the limitations of self-diagnosis and self-treatment for persistent symptoms.",
+        "Healthcare access is available to the patient."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "In emergency situations (e.g., sudden severe headache, headache with neurological deficits), immediate medical attention is necessary, not just a standard evaluation."
+      ]
+    },
+    {
+      "Steps": "Step 9: Synthesize information and provide a concluding summary.",
+      "reasoning": [
+        "Combine the analysis of causes and treatments to provide a comprehensive overview as requested by the user.",
+        "Reiterate the main points: persistent headaches require investigation to determine the cause (primary vs. secondary), and treatment is highly individualized based on that cause and other patient factors.",
+        "Emphasize the need for professional medical help."
+      ],
+      "Assumptions": [
+        "The previous steps have covered the key aspects of causes and treatments.",
+        "The summary should reinforce the critical message about diagnosis-driven treatment."
+      ],
+      "Confidence": "high",
+      "Exceptions": [
+        "Specific treatment protocols or guidelines for rare or complex cases are beyond the scope of this general analysis."
+      ]
+    }
+  ]

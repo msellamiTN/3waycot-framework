@@ -1,0 +1,135 @@
+{
+  "name": "Uncertainty Reasoning Benchmark",
+  "description": "A benchmark dataset designed to evaluate reasoning under uncertainty with partially ambiguous or incomplete information",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "uncertainty_1",
+      "prompt": "A new medical treatment shows promising results in early trials, but there are concerns about long-term side effects. Given the limited data available, should this treatment be approved for patients with severe conditions who have no other options?",
+      "context": "The treatment has shown 70% efficacy in phase 2 trials with 500 patients over 6 months. There are indications of potential liver complications in 5% of cases, but the long-term effects beyond 1 year remain unknown.",
+      "expected_assumptions": [
+        "The treatment efficacy data is reliable",
+        "The 5% complication rate is accurate",
+        "Severe conditions justify higher risk tolerance",
+        "No other effective treatments exist",
+        "Long-term effects could be worse than indicated by short-term data"
+      ],
+      "uncertainty_factors": [
+        "Incomplete long-term data",
+        "Unknown generalizability beyond trial population",
+        "Ethical tradeoffs between immediate benefit and long-term risk",
+        "Unclear severity of potential complications"
+      ],
+      "gold_answer": "Conditional approval with mandatory long-term follow-up studies and informed consent emphasizing the uncertainty of long-term outcomes",
+      "reasoning_quality_metrics": {
+        "uncertainty_acknowledgment": "High",
+        "assumption_explicitness": "Medium",
+        "consideration_of_alternatives": "High",
+        "evidence_integration": "Medium"
+      }
+    },
+    {
+      "id": "uncertainty_2",
+      "prompt": "What will be the most significant impacts of quantum computing on cryptography and data security over the next decade?",
+      "context": "Current quantum computers have reached around 100 qubits, but theoretical estimates suggest that breaking common encryption algorithms would require thousands of qubits. Major technology companies and governments are investing heavily in quantum research.",
+      "expected_assumptions": [
+        "Quantum computing development will continue at current or accelerated pace",
+        "No major theoretical breakthroughs will radically alter quantum requirements for cryptographic attacks",
+        "Current estimates of required qubits are accurate",
+        "Quantum-resistant algorithms will be developed in parallel",
+        "Adoption of new security standards will not be universal"
+      ],
+      "uncertainty_factors": [
+        "Unpredictable rate of quantum hardware development",
+        "Unknown timing of potential cryptographic breakthroughs",
+        "Unclear institutional adoption timelines for quantum-resistant algorithms",
+        "Geopolitical implications and asymmetric adoption"
+      ],
+      "gold_answer": "Gradual transition to quantum-resistant algorithms with mixed security landscape and selective vulnerability of high-value targets, rather than sudden widespread cryptographic failure",
+      "reasoning_quality_metrics": {
+        "uncertainty_acknowledgment": "High",
+        "assumption_explicitness": "High",
+        "consideration_of_alternatives": "Medium",
+        "evidence_integration": "Medium"
+      }
+    },
+    {
+      "id": "uncertainty_3",
+      "prompt": "Based on current climate models, will coastal cities need to implement major infrastructure changes by 2050 to address sea level rise?",
+      "context": "Current models predict sea level rise between 20cm and 50cm by 2050, depending on emissions scenarios. Many coastal cities already experience flooding during extreme weather events. Adaptation costs are estimated in the billions for major cities.",
+      "expected_assumptions": [
+        "Current climate models provide reasonably accurate projections",
+        "No unexpected acceleration in ice sheet dynamics will occur",
+        "Political and economic factors will allow for adaptation planning",
+        "Current infrastructure is inadequate for projected sea levels",
+        "The costs of adaptation are less than the costs of inaction"
+      ],
+      "uncertainty_factors": [
+        "Range of climate model predictions",
+        "Potential non-linear climate system responses",
+        "Economic feasibility across different regions",
+        "Political will for preventative vs. reactive measures",
+        "Future emissions pathway uncertainty"
+      ],
+      "gold_answer": "Yes, most coastal cities will need significant infrastructure changes, but with regionally variable urgency and approaches based on local conditions, economic resources, and risk factors",
+      "reasoning_quality_metrics": {
+        "uncertainty_acknowledgment": "High",
+        "assumption_explicitness": "Medium",
+        "consideration_of_alternatives": "High",
+        "evidence_integration": "High"
+      }
+    },
+    {
+      "id": "uncertainty_4",
+      "prompt": "Is consciousness possible in artificial intelligence systems, and if so, how would we recognize it?",
+      "context": "Current AI systems show increasingly sophisticated behavior but operate on fundamentally different principles than biological brains. There is no scientific consensus on the nature or measurement of consciousness even in biological systems.",
+      "expected_assumptions": [
+        "Consciousness is a real phenomenon rather than an illusion",
+        "Consciousness is not exclusively biological",
+        "We would be able to recognize non-human consciousness if it existed",
+        "Current theories of consciousness are at least partially correct",
+        "Observable behavior can indicate internal states"
+      ],
+      "uncertainty_factors": [
+        "Lack of consensus definition of consciousness",
+        "Absence of direct measurement methods",
+        "Unknown relationship between computational complexity and consciousness",
+        "Potential for entirely alien forms of consciousness",
+        "Philosophical questions about the hard problem of consciousness"
+      ],
+      "gold_answer": "The question remains open with multiple valid perspectives. Recognition would likely involve a combination of behavioral tests, architectural analysis, and philosophical frameworks, but no single definitive test exists",
+      "reasoning_quality_metrics": {
+        "uncertainty_acknowledgment": "Very High",
+        "assumption_explicitness": "High",
+        "consideration_of_alternatives": "High",
+        "evidence_integration": "Medium"
+      }
+    },
+    {
+      "id": "uncertainty_5",
+      "prompt": "Given current trends, will autonomous vehicles be safer than human drivers for all types of driving conditions by 2030?",
+      "context": "Current autonomous systems perform well in certain conditions but struggle with unusual situations, extreme weather, and complex urban environments. Machine learning approaches continue to improve but face challenges with edge cases.",
+      "expected_assumptions": [
+        "Current development trajectories will continue",
+        "Safety is measured primarily by accident rates",
+        "Regulatory frameworks will adapt to allow autonomous operation",
+        "Edge cases can be addressed through more data and improved algorithms",
+        "Human driving performance is a stable benchmark"
+      ],
+      "uncertainty_factors": [
+        "Unknown rate of technological improvement for edge cases",
+        "Potential for new types of failure modes",
+        "Varying definitions of 'safety' across contexts",
+        "Unclear public acceptance and adoption rates",
+        "Regulatory uncertainty"
+      ],
+      "gold_answer": "Partial success is likely - autonomous vehicles will probably exceed human safety in structured environments and good conditions, but may still struggle with certain edge cases and extreme conditions by 2030",
+      "reasoning_quality_metrics": {
+        "uncertainty_acknowledgment": "Medium",
+        "assumption_explicitness": "Medium",
+        "consideration_of_alternatives": "High",
+        "evidence_integration": "Medium"
+      }
+    }
+  ]
+}

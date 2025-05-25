@@ -1,0 +1,223 @@
+advanced:
+  debug_mode: false
+  enable_profiling: false
+  max_workers: 4
+  parallel_processing: true
+app:
+  cache_dir: .cache/3waycot
+  log_file: logs/3waycot.log
+  log_level: INFO
+  name: 3WayCoT
+  version: 1.0.0
+  visualization_dir: results/visualizations
+benchmark:
+  default_dataset: data/benchmarks/default.json
+  metrics:
+  - name: accuracy
+    weight: 0.4
+  - name: confidence
+    weight: 0.3
+  - name: consistency
+    weight: 0.3
+  output_dir: results/benchmarks
+framework:
+  alpha: 0.7
+  beta: 0.6
+  cache_embeddings: false
+  confidence_weight: 0.7
+  max_assumptions: 5
+  max_steps: 5
+  metrics_weights:
+    confidence: 0.3
+    consistency: 0.2
+    coverage: 0.2
+    similarity: 0.3
+  similarity_threshold: 0.65
+  tau: 0.4
+  use_cases:
+    conservative:
+      alpha: 0.8
+      beta: 0.5
+      confidence_weight: 0.8
+      max_assumptions: 3
+      tau: 0.7
+    default:
+      alpha: 0.7
+      beta: 0.4
+      confidence_weight: 0.7
+      max_assumptions: 5
+      max_steps: 5
+      tau: 0.6
+    exploratory:
+      alpha: 0.6
+      beta: 0.3
+      confidence_weight: 0.6
+      max_assumptions: 7
+      tau: 0.5
+    parameter_exploration:
+      alpha: 0.7
+      beta: 0.4
+      confidence_weight: 0.7
+      max_assumptions: 5
+      max_steps: 5
+      tau: 0.6
+  use_embeddings: true
+knowledge_base:
+  chunk_overlap: 200
+  chunk_size: 1000
+  path: data/knowledge_base.json
+  vector_store: data/vector_store.faiss
+llm:
+  default_model: gpt-4
+  default_provider: openai
+  providers:
+    anthropic:
+      api_key_env: ANTHROPIC_API_KEY
+      models:
+      - claude-3-opus-20240229
+      - claude-3-sonnet-20240229
+      params:
+        max_tokens: 4000
+        temperature: 0.7
+    gemini:
+      default_model: gemini-1.5-flash
+      api_key_env: AIzaSyB90b21EctP3b4LQfQGhwk4RkLQS49iKDo
+      models:
+      - gemini-1.5-flash
+      - gemini-1.5-pro
+      - gemini-pro
+      params:
+        max_output_tokens: 2048
+        temperature: 0.7
+        top_p: 0.9
+        top_k: 40
+    openai:
+      api_key_env: OPENAI_API_KEY
+      models:
+      - gpt-4
+      - gpt-4-turbo
+      - gpt-3.5-turbo
+      params:
+        max_tokens: 2000
+        temperature: 0.7
+        top_p: 1.0
+logging:
+  disable_existing_loggers: false
+  formatters:
+    standard:
+      format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: standard
+      level: INFO
+      stream: ext://sys.stdout
+    file:
+      class: logging.FileHandler
+      encoding: utf8
+      filename: logs/3waycot.log
+      formatter: standard
+      level: DEBUG
+  root:
+    exploratory:
+      alpha: 0.65
+      beta: 0.4
+      confidence_weight: 0.6
+      max_assumptions: 7
+      max_steps: 7
+      tau: 0.6
+    handlers:
+    - console
+    - file
+    level: INFO
+    propagate: true
+  version: 1
+paths:
+  data: data/
+  logs: logs/
+  models: models/
+  results: results/
+uncertainty:
+  confidence_threshold: 0.7
+  max_retries: 3
+  relevance_threshold: 0.7
+  validity_threshold: 0.6
+use_cases:
+  conservative:
+    alpha: 0.8
+    beta: 0.5
+    description: More conservative decision making
+    max_steps: 15
+  default:
+    alpha: 0.7
+    beta: 0.6
+    description: Standard configuration for general use
+    max_steps: 10
+  exploratory:
+    alpha: 0.6
+    beta: 0.7
+    description: More exploratory with higher uncertainty tolerance
+    max_steps: 20
+visualization:
+  colors:
+    correlation: RdBu
+    decision_distribution:
+    - '#2ecc71'
+    - '#e74c3c'
+    - '#f39c12'
+    decision_types:
+      ABSTAIN: '#f39c12'
+      ACCEPT: '#2ecc71'
+      REJECT: '#e74c3c'
+    heatmap: Viridis
+  confidence:
+    num_bins: 20
+    smoothing: 0.5
+  export:
+    dpi: 300
+    format: html
+    scale: 2.0
+  figure:
+    height: 600
+    template: plotly_white
+    width: 1000
+  lattice:
+    edge_color: '#95a5a6'
+    layout: spring
+    node_color: '#3498db'
+    node_size: 20
+  parameter_analysis:
+    metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1_score
+    - confidence
+    num_variations: 10
+    parameter_ranges:
+      alpha:
+        max: 0.9
+        min: 0.5
+        step: 0.1
+      beta:
+        max: 0.7
+        min: 0.3
+        step: 0.1
+      confidence_weight:
+        max: 1.0
+        min: 0.3
+        step: 0.1
+      max_steps:
+        max: 10
+        min: 3
+        step: 1
+      tau:
+        max: 0.8
+        min: 0.3
+        step: 0.1
+    parameters:
+    - alpha
+    - beta
+    - tau
+    - max_steps
+    - confidence_weight

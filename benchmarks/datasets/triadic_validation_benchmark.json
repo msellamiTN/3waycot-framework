@@ -1,0 +1,187 @@
+{
+  "name": "Triadic Decision Validation Benchmark",
+  "description": "A benchmark dataset designed to validate the Three-Way Decision framework with explicit confidence levels and expected decision regions",
+  "version": "1.0",
+  "items": [
+    {
+      "id": "triadic_1",
+      "prompt": "A patient has symptoms that match 70% with Disease X and 35% with Disease Y. The confidence in this diagnostic assessment is 80%. Should we proceed with treatment for Disease X?",
+      "context": "Disease X requires immediate treatment but has potential side effects. Disease Y is less serious but requires different medication.",
+      "expected_decision": "ACCEPT",
+      "confidence_level": 0.8,
+      "membership_degrees": {
+        "accept": {"lower": 0.70, "upper": 0.85},
+        "reject": {"lower": 0.15, "upper": 0.30}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": true,
+        "clear_membership": true,
+        "low_uncertainty": true
+      },
+      "expected_alpha": 0.65,
+      "expected_beta": 0.35
+    },
+    {
+      "id": "triadic_2",
+      "prompt": "A financial algorithm predicts a 55% chance of market growth with confidence level of 45%. Should we invest based on this prediction?",
+      "context": "The investment is moderate risk with potential for significant returns. Alternative investments exist with lower risk profiles.",
+      "expected_decision": "ABSTAIN",
+      "confidence_level": 0.45,
+      "membership_degrees": {
+        "accept": {"lower": 0.50, "upper": 0.60},
+        "reject": {"lower": 0.40, "upper": 0.50}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": false,
+        "clear_membership": false,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.70,
+      "expected_beta": 0.45
+    },
+    {
+      "id": "triadic_3",
+      "prompt": "A software system has failed 3 out of 5 security tests. The confidence in these test results is 90%. Should we deploy the software?",
+      "context": "The software is needed for an important business function but security breaches could be costly.",
+      "expected_decision": "REJECT",
+      "confidence_level": 0.9,
+      "membership_degrees": {
+        "accept": {"lower": 0.30, "upper": 0.45},
+        "reject": {"lower": 0.55, "upper": 0.70}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": true,
+        "clear_membership": true,
+        "low_uncertainty": true
+      },
+      "expected_alpha": 0.60,
+      "expected_beta": 0.50
+    },
+    {
+      "id": "triadic_4",
+      "prompt": "A bridge safety inspection found potential structural issues with 40% likelihood, but the analysis has only 50% confidence. Should we close the bridge immediately?",
+      "context": "The bridge serves as a critical transportation link for a community. Closing it would cause significant disruption.",
+      "expected_decision": "ABSTAIN",
+      "confidence_level": 0.5,
+      "membership_degrees": {
+        "accept": {"lower": 0.55, "upper": 0.65},
+        "reject": {"lower": 0.35, "upper": 0.45}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": false,
+        "clear_membership": false,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.75,
+      "expected_beta": 0.40
+    },
+    {
+      "id": "triadic_5",
+      "prompt": "A study shows a new teaching method improved test scores by 25% with 95% confidence. Should we adopt this method widely?",
+      "context": "Implementing the new method requires significant teacher training and curriculum changes.",
+      "expected_decision": "REJECT",
+      "confidence_level": 0.95,
+      "membership_degrees": {
+        "accept": {"lower": 0.25, "upper": 0.30},
+        "reject": {"lower": 0.70, "upper": 0.75}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": true,
+        "clear_membership": true,
+        "low_uncertainty": true
+      },
+      "expected_alpha": 0.60,
+      "expected_beta": 0.50
+    },
+    {
+      "id": "triadic_6",
+      "prompt": "Weather forecasts predict a 65% chance of severe flooding with 75% confidence. Should we issue evacuation orders?",
+      "context": "Evacuation is disruptive and costly, but failure to evacuate during an actual flood could be catastrophic.",
+      "expected_decision": "ACCEPT",
+      "confidence_level": 0.75,
+      "membership_degrees": {
+        "accept": {"lower": 0.60, "upper": 0.70},
+        "reject": {"lower": 0.30, "upper": 0.40}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": true,
+        "clear_membership": true,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.60,
+      "expected_beta": 0.40
+    },
+    {
+      "id": "triadic_7",
+      "prompt": "A drug screening test shows a positive result with 60% accuracy and 40% confidence level. Should we proceed with more invasive testing?",
+      "context": "Further testing is expensive and uncomfortable for the patient but could detect a serious condition.",
+      "expected_decision": "ABSTAIN",
+      "confidence_level": 0.4,
+      "membership_degrees": {
+        "accept": {"lower": 0.55, "upper": 0.65},
+        "reject": {"lower": 0.35, "upper": 0.45}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": false,
+        "clear_membership": false,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.65,
+      "expected_beta": 0.40
+    },
+    {
+      "id": "triadic_8",
+      "prompt": "An AI system classifies an image as containing a prohibited item with 80% probability and 85% confidence. Should we flag this for human review?",
+      "context": "False positives cause delays in processing while false negatives could pose security risks.",
+      "expected_decision": "ACCEPT",
+      "confidence_level": 0.85,
+      "membership_degrees": {
+        "accept": {"lower": 0.75, "upper": 0.85},
+        "reject": {"lower": 0.15, "upper": 0.25}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": true,
+        "clear_membership": true,
+        "low_uncertainty": true
+      },
+      "expected_alpha": 0.70,
+      "expected_beta": 0.30
+    },
+    {
+      "id": "triadic_9",
+      "prompt": "A satellite has detected a potential asteroid impact with 15% probability but only 30% confidence in this assessment. Should we allocate significant resources to further tracking?",
+      "context": "Tracking resources are limited and needed for other missions. A potential impact would be catastrophic but is unlikely.",
+      "expected_decision": "REJECT",
+      "confidence_level": 0.3,
+      "membership_degrees": {
+        "accept": {"lower": 0.10, "upper": 0.20},
+        "reject": {"lower": 0.80, "upper": 0.90}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": false,
+        "clear_membership": true,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.60,
+      "expected_beta": 0.40
+    },
+    {
+      "id": "triadic_10",
+      "prompt": "A cybersecurity analysis indicates a 50% chance of a system vulnerability with 55% confidence. Should we take the system offline for patching?",
+      "context": "Taking the system offline affects critical business operations but leaving it running risks potential data breaches.",
+      "expected_decision": "ABSTAIN",
+      "confidence_level": 0.55,
+      "membership_degrees": {
+        "accept": {"lower": 0.45, "upper": 0.55},
+        "reject": {"lower": 0.45, "upper": 0.55}
+      },
+      "reasoning_characteristics": {
+        "high_confidence": false,
+        "clear_membership": false,
+        "low_uncertainty": false
+      },
+      "expected_alpha": 0.70,
+      "expected_beta": 0.45
+    }
+  ]
+}

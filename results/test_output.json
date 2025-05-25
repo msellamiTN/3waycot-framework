@@ -1,0 +1,1677 @@
+{
+  "prompt": "What is the main advantage of Triadic FCA over traditional FCA?",
+  "context": "Formal Concept Analysis (FCA) is a method for data analysis and knowledge representation based on lattice theory. Triadic FCA extends traditional FCA by adding a third dimension.",
+  "reasoning_steps": [
+    {
+      "step_num": 1,
+      "reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.",
+      "assumptions": "",
+      "extracted_assumptions": [],
+      "annotated_reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.\n[Assumptions: ]",
+      "confidence": 0.95,
+      "confidence_method": "structured-expert judgment based on extensive literature review of fca and triadic fca.",
+      "confidence_level": "high",
+      "step_index": 0,
+      "metrics": {
+        "confidence": 0.95,
+        "uncertainty": 0.050000000000000044,
+        "stability": 0.86,
+        "connectivity": 0.6,
+        "density": 0.6,
+        "coverage": 0.6
+      }
+    },
+    {
+      "step_num": 2,
+      "reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.",
+      "assumptions": "",
+      "extracted_assumptions": [],
+      "annotated_reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.\n[Assumptions: ]",
+      "confidence": 0.8,
+      "confidence_method": "structured-deductive reasoning based on the definition of triadic fca and examples from the literature.  uncertainty stems from the diversity of applications and interpretations of triadic fca.",
+      "confidence_level": "high",
+      "step_index": 1,
+      "metrics": {
+        "confidence": 0.8,
+        "uncertainty": 0.19999999999999996,
+        "stability": 0.74,
+        "connectivity": 0.6,
+        "density": 0.6,
+        "coverage": 0.6
+      }
+    },
+    {
+      "step_num": 3,
+      "reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.",
+      "assumptions": "",
+      "extracted_assumptions": [],
+      "annotated_reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.\n[Assumptions: ]",
+      "confidence": 0.75,
+      "confidence_method": "structured-inductive reasoning based on the improved modeling capabilities of triadic fca. uncertainty arises from the potential for overfitting or misinterpreting the results.",
+      "confidence_level": "high",
+      "step_index": 2,
+      "metrics": {
+        "confidence": 0.75,
+        "uncertainty": 0.25,
+        "stability": 0.7,
+        "connectivity": 0.6,
+        "density": 0.6,
+        "coverage": 0.6
+      }
+    },
+    {
+      "step_num": 4,
+      "reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.",
+      "assumptions": "Confidence level: 0.5",
+      "is_final": true,
+      "confidence": 0.85,
+      "extracted_assumptions": [
+        "Confidence level: 0.5"
+      ],
+      "annotated_reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.\n[Assumptions: Confidence level: 0.5]",
+      "confidence_method": "structured-synthesis of expert judgment and deductive/inductive reasoning from previous steps. uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of triadic fca.",
+      "confidence_level": "high",
+      "step_index": 3,
+      "metrics": {
+        "confidence": 0.85,
+        "uncertainty": 0.15000000000000002,
+        "stability": 0.78,
+        "connectivity": 0.6,
+        "density": 0.6,
+        "coverage": 0.6
+      }
+    }
+  ],
+  "decisions": {
+    "decisions": [
+      {
+        "step_index": 0,
+        "step_content": "",
+        "decision": "ACCEPT",
+        "confidence": 0.95,
+        "explanation": "High confidence in step validity (confidence=0.950, accept=0.972, reject=0.028)",
+        "metrics": {
+          "similarity_score": 0.7,
+          "assumption_coverage": 0.7,
+          "uncertainty_score": 0.3,
+          "membership_degrees": {
+            "accept": 1.0,
+            "reject": 0.0,
+            "abstain": 0.0
+          },
+          "confidence_calibration": {
+            "accept_factor": 1.0,
+            "reject_factor": 1.0,
+            "abstain_factor": 1.0
+          }
+        },
+        "membership_scores": {
+          "accept": 1.0,
+          "reject": 0.041666666666666685,
+          "abstain": 0.0
+        },
+        "concept_info": {},
+        "membership_degrees": {
+          "accept": 0.95,
+          "reject": 0.3,
+          "abstain": 0.4
+        }
+      },
+      {
+        "step_index": 1,
+        "step_content": "",
+        "decision": "ACCEPT",
+        "confidence": 0.8,
+        "explanation": "High confidence in step validity (confidence=0.800, accept=0.876, reject=0.124)",
+        "metrics": {
+          "similarity_score": 0.7,
+          "assumption_coverage": 0.7,
+          "uncertainty_score": 0.3,
+          "membership_degrees": {
+            "accept": 1.0,
+            "reject": 0.0,
+            "abstain": 0.0
+          },
+          "confidence_calibration": {
+            "accept_factor": 1.0,
+            "reject_factor": 1.0,
+            "abstain_factor": 1.0
+          }
+        },
+        "membership_scores": {
+          "accept": 0.7500000000000002,
+          "reject": 0.16666666666666663,
+          "abstain": 0.0
+        },
+        "concept_info": {},
+        "membership_degrees": {
+          "accept": 0.8,
+          "reject": 0.3,
+          "abstain": 0.4
+        }
+      },
+      {
+        "step_index": 2,
+        "step_content": "",
+        "decision": "ACCEPT",
+        "confidence": 0.75,
+        "explanation": "High confidence in step validity (confidence=0.750, accept=0.835, reject=0.165)",
+        "metrics": {
+          "similarity_score": 0.7,
+          "assumption_coverage": 0.7,
+          "uncertainty_score": 0.3,
+          "membership_degrees": {
+            "accept": 1.0,
+            "reject": 0.0,
+            "abstain": 0.0
+          },
+          "confidence_calibration": {
+            "accept_factor": 1.0,
+            "reject_factor": 1.0,
+            "abstain_factor": 1.0
+          }
+        },
+        "membership_scores": {
+          "accept": 0.6250000000000001,
+          "reject": 0.20833333333333331,
+          "abstain": 0.0
+        },
+        "concept_info": {},
+        "membership_degrees": {
+          "accept": 0.75,
+          "reject": 0.3,
+          "abstain": 0.4
+        }
+      },
+      {
+        "step_index": 3,
+        "step_content": "",
+        "decision": "ACCEPT",
+        "confidence": 0.85,
+        "explanation": "High confidence in step validity (confidence=0.850, accept=0.912, reject=0.088)",
+        "metrics": {
+          "similarity_score": 0.7,
+          "assumption_coverage": 0.7,
+          "uncertainty_score": 0.3,
+          "membership_degrees": {
+            "accept": 1.0,
+            "reject": 0.0,
+            "abstain": 0.0
+          },
+          "confidence_calibration": {
+            "accept_factor": 1.0,
+            "reject_factor": 1.0,
+            "abstain_factor": 1.0
+          }
+        },
+        "membership_scores": {
+          "accept": 0.875,
+          "reject": 0.125,
+          "abstain": 0.0
+        },
+        "concept_info": {},
+        "membership_degrees": {
+          "accept": 0.85,
+          "reject": 0.3,
+          "abstain": 0.4
+        }
+      }
+    ],
+    "summary": {
+      "total_steps": 4,
+      "accept_count": 4,
+      "reject_count": 0,
+      "abstain_count": 0,
+      "accept_ratio": 1.0,
+      "reject_ratio": 0.0,
+      "abstain_ratio": 0.0,
+      "avg_confidence_accept": 0.8375,
+      "avg_confidence_reject": 0.0,
+      "avg_confidence_abstain": 0.0,
+      "decision_consistency": 1.0,
+      "confidence_alignment": 1.0
+    },
+    "metadata": {
+      "timestamp": "2025-05-25T22:15:53.216362",
+      "thresholds": {
+        "alpha": 0.7,
+        "beta": 0.4,
+        "tau": 0.6
+      },
+      "algorithm_version": "2.0",
+      "confidence_weighted": true,
+      "confidence_metrics": {
+        "confidence_metrics": {
+          "average": 0.8375,
+          "max": 0.95,
+          "min": 0.75,
+          "range": 0.19999999999999996,
+          "variance": 0.005468749999999997,
+          "high_ratio": 1.0,
+          "low_ratio": 0.0,
+          "mid_ratio": 0.0,
+          "trend": -0.09999999999999998
+        },
+        "membership_degrees": {
+          "accept": 1.0,
+          "reject": 0.0,
+          "abstain": 0.0
+        },
+        "confidence_calibration": {
+          "accept_factor": 1.0,
+          "reject_factor": 1.0,
+          "abstain_factor": 1.0
+        }
+      },
+      "confidence_distribution": {
+        "count": 4,
+        "avg_confidence": 0.8375,
+        "min_confidence": 0.75,
+        "max_confidence": 0.95,
+        "distribution": {
+          "high": 4,
+          "medium": 0,
+          "low": 0
+        }
+      }
+    }
+  },
+  "analysis_results": {
+    "decisions": {
+      "decisions": [
+        {
+          "step_index": 0,
+          "step_content": "",
+          "decision": "ACCEPT",
+          "confidence": 0.95,
+          "explanation": "High confidence in step validity (confidence=0.950, accept=0.972, reject=0.028)",
+          "metrics": {
+            "similarity_score": 0.7,
+            "assumption_coverage": 0.7,
+            "uncertainty_score": 0.3,
+            "membership_degrees": {
+              "accept": 1.0,
+              "reject": 0.0,
+              "abstain": 0.0
+            },
+            "confidence_calibration": {
+              "accept_factor": 1.0,
+              "reject_factor": 1.0,
+              "abstain_factor": 1.0
+            }
+          },
+          "membership_scores": {
+            "accept": 1.0,
+            "reject": 0.041666666666666685,
+            "abstain": 0.0
+          },
+          "concept_info": {},
+          "membership_degrees": {
+            "accept": 0.95,
+            "reject": 0.3,
+            "abstain": 0.4
+          }
+        },
+        {
+          "step_index": 1,
+          "step_content": "",
+          "decision": "ACCEPT",
+          "confidence": 0.8,
+          "explanation": "High confidence in step validity (confidence=0.800, accept=0.876, reject=0.124)",
+          "metrics": {
+            "similarity_score": 0.7,
+            "assumption_coverage": 0.7,
+            "uncertainty_score": 0.3,
+            "membership_degrees": {
+              "accept": 1.0,
+              "reject": 0.0,
+              "abstain": 0.0
+            },
+            "confidence_calibration": {
+              "accept_factor": 1.0,
+              "reject_factor": 1.0,
+              "abstain_factor": 1.0
+            }
+          },
+          "membership_scores": {
+            "accept": 0.7500000000000002,
+            "reject": 0.16666666666666663,
+            "abstain": 0.0
+          },
+          "concept_info": {},
+          "membership_degrees": {
+            "accept": 0.8,
+            "reject": 0.3,
+            "abstain": 0.4
+          }
+        },
+        {
+          "step_index": 2,
+          "step_content": "",
+          "decision": "ACCEPT",
+          "confidence": 0.75,
+          "explanation": "High confidence in step validity (confidence=0.750, accept=0.835, reject=0.165)",
+          "metrics": {
+            "similarity_score": 0.7,
+            "assumption_coverage": 0.7,
+            "uncertainty_score": 0.3,
+            "membership_degrees": {
+              "accept": 1.0,
+              "reject": 0.0,
+              "abstain": 0.0
+            },
+            "confidence_calibration": {
+              "accept_factor": 1.0,
+              "reject_factor": 1.0,
+              "abstain_factor": 1.0
+            }
+          },
+          "membership_scores": {
+            "accept": 0.6250000000000001,
+            "reject": 0.20833333333333331,
+            "abstain": 0.0
+          },
+          "concept_info": {},
+          "membership_degrees": {
+            "accept": 0.75,
+            "reject": 0.3,
+            "abstain": 0.4
+          }
+        },
+        {
+          "step_index": 3,
+          "step_content": "",
+          "decision": "ACCEPT",
+          "confidence": 0.85,
+          "explanation": "High confidence in step validity (confidence=0.850, accept=0.912, reject=0.088)",
+          "metrics": {
+            "similarity_score": 0.7,
+            "assumption_coverage": 0.7,
+            "uncertainty_score": 0.3,
+            "membership_degrees": {
+              "accept": 1.0,
+              "reject": 0.0,
+              "abstain": 0.0
+            },
+            "confidence_calibration": {
+              "accept_factor": 1.0,
+              "reject_factor": 1.0,
+              "abstain_factor": 1.0
+            }
+          },
+          "membership_scores": {
+            "accept": 0.875,
+            "reject": 0.125,
+            "abstain": 0.0
+          },
+          "concept_info": {},
+          "membership_degrees": {
+            "accept": 0.85,
+            "reject": 0.3,
+            "abstain": 0.4
+          }
+        }
+      ],
+      "summary": {
+        "total_steps": 4,
+        "accept_count": 4,
+        "reject_count": 0,
+        "abstain_count": 0,
+        "accept_ratio": 1.0,
+        "reject_ratio": 0.0,
+        "abstain_ratio": 0.0,
+        "avg_confidence_accept": 0.8375,
+        "avg_confidence_reject": 0.0,
+        "avg_confidence_abstain": 0.0,
+        "decision_consistency": 1.0,
+        "confidence_alignment": 1.0
+      },
+      "metadata": {
+        "timestamp": "2025-05-25T22:15:53.216362",
+        "thresholds": {
+          "alpha": 0.7,
+          "beta": 0.4,
+          "tau": 0.6
+        },
+        "algorithm_version": "2.0",
+        "confidence_weighted": true,
+        "confidence_metrics": {
+          "confidence_metrics": {
+            "average": 0.8375,
+            "max": 0.95,
+            "min": 0.75,
+            "range": 0.19999999999999996,
+            "variance": 0.005468749999999997,
+            "high_ratio": 1.0,
+            "low_ratio": 0.0,
+            "mid_ratio": 0.0,
+            "trend": -0.09999999999999998
+          },
+          "membership_degrees": {
+            "accept": 1.0,
+            "reject": 0.0,
+            "abstain": 0.0
+          },
+          "confidence_calibration": {
+            "accept_factor": 1.0,
+            "reject_factor": 1.0,
+            "abstain_factor": 1.0
+          }
+        },
+        "confidence_distribution": {
+          "count": 4,
+          "avg_confidence": 0.8375,
+          "min_confidence": 0.75,
+          "max_confidence": 0.95,
+          "distribution": {
+            "high": 4,
+            "medium": 0,
+            "low": 0
+          }
+        }
+      }
+    },
+    "reasoning_steps": [
+      {
+        "step_num": 1,
+        "reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.",
+        "assumptions": [
+          "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+          "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+          "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+          "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+          "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+        ],
+        "extracted_assumptions": [],
+        "annotated_reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.\n[Assumptions: ]",
+        "confidence": 0.95,
+        "confidence_method": "structured-expert judgment based on extensive literature review of fca and triadic fca.",
+        "confidence_level": "high",
+        "step_index": 0,
+        "metrics": {
+          "confidence": 0.95,
+          "uncertainty": 0.050000000000000044,
+          "stability": 0.86,
+          "connectivity": 0.6,
+          "density": 0.6,
+          "coverage": 0.6
+        },
+        "Assumptions": [
+          "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+          "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+          "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+          "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+          "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+        ],
+        "Description": "Step 1",
+        "confidence_category": "high"
+      },
+      {
+        "step_num": 2,
+        "reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.",
+        "assumptions": [
+          "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+          "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+          "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+          "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+          "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+        ],
+        "extracted_assumptions": [],
+        "annotated_reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.\n[Assumptions: ]",
+        "confidence": 0.8,
+        "confidence_method": "structured-deductive reasoning based on the definition of triadic fca and examples from the literature.  uncertainty stems from the diversity of applications and interpretations of triadic fca.",
+        "confidence_level": "high",
+        "step_index": 1,
+        "metrics": {
+          "confidence": 0.8,
+          "uncertainty": 0.19999999999999996,
+          "stability": 0.74,
+          "connectivity": 0.6,
+          "density": 0.6,
+          "coverage": 0.6
+        },
+        "Assumptions": [
+          "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+          "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+          "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+          "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+          "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+        ],
+        "Description": "Step 2",
+        "confidence_category": "high"
+      },
+      {
+        "step_num": 3,
+        "reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.",
+        "assumptions": [
+          "assumption_2_0: 1. More accurate data representation leads to better insights.",
+          "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+          "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+          "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+          "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+        ],
+        "extracted_assumptions": [],
+        "annotated_reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.\n[Assumptions: ]",
+        "confidence": 0.75,
+        "confidence_method": "structured-inductive reasoning based on the improved modeling capabilities of triadic fca. uncertainty arises from the potential for overfitting or misinterpreting the results.",
+        "confidence_level": "high",
+        "step_index": 2,
+        "metrics": {
+          "confidence": 0.75,
+          "uncertainty": 0.25,
+          "stability": 0.7,
+          "connectivity": 0.6,
+          "density": 0.6,
+          "coverage": 0.6
+        },
+        "Assumptions": [
+          "assumption_2_0: 1. More accurate data representation leads to better insights.",
+          "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+          "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+          "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+          "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+        ],
+        "Description": "Step 3",
+        "confidence_category": "high"
+      },
+      {
+        "step_num": 4,
+        "reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.",
+        "assumptions": [
+          "assumption_3_0: Confidence level: 0.5"
+        ],
+        "is_final": true,
+        "confidence": 0.85,
+        "extracted_assumptions": [
+          "Confidence level: 0.5"
+        ],
+        "annotated_reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.\n[Assumptions: Confidence level: 0.5]",
+        "confidence_method": "structured-synthesis of expert judgment and deductive/inductive reasoning from previous steps. uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of triadic fca.",
+        "confidence_level": "high",
+        "step_index": 3,
+        "metrics": {
+          "confidence": 0.85,
+          "uncertainty": 0.15000000000000002,
+          "stability": 0.78,
+          "connectivity": 0.6,
+          "density": 0.6,
+          "coverage": 0.6
+        },
+        "Assumptions": [
+          "assumption_3_0: Confidence level: 0.5"
+        ],
+        "Description": "Step 4",
+        "confidence_category": "high"
+      }
+    ],
+    "tfca_results": {
+      "original_steps": [
+        {
+          "step_num": 1,
+          "reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.",
+          "assumptions": [
+            "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+            "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+            "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+            "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+            "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.\n[Assumptions: ]",
+          "confidence": 0.95,
+          "confidence_method": "structured-expert judgment based on extensive literature review of fca and triadic fca.",
+          "confidence_level": "high",
+          "step_index": 0,
+          "metrics": {
+            "confidence": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "stability": 0.86,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+            "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+            "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+            "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+            "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+          ],
+          "Description": "Step 1",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 2,
+          "reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.",
+          "assumptions": [
+            "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+            "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+            "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+            "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+            "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.\n[Assumptions: ]",
+          "confidence": 0.8,
+          "confidence_method": "structured-deductive reasoning based on the definition of triadic fca and examples from the literature.  uncertainty stems from the diversity of applications and interpretations of triadic fca.",
+          "confidence_level": "high",
+          "step_index": 1,
+          "metrics": {
+            "confidence": 0.8,
+            "uncertainty": 0.19999999999999996,
+            "stability": 0.74,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+            "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+            "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+            "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+            "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+          ],
+          "Description": "Step 2",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 3,
+          "reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.",
+          "assumptions": [
+            "assumption_2_0: 1. More accurate data representation leads to better insights.",
+            "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+            "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+            "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+            "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.\n[Assumptions: ]",
+          "confidence": 0.75,
+          "confidence_method": "structured-inductive reasoning based on the improved modeling capabilities of triadic fca. uncertainty arises from the potential for overfitting or misinterpreting the results.",
+          "confidence_level": "high",
+          "step_index": 2,
+          "metrics": {
+            "confidence": 0.75,
+            "uncertainty": 0.25,
+            "stability": 0.7,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_2_0: 1. More accurate data representation leads to better insights.",
+            "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+            "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+            "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+            "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+          ],
+          "Description": "Step 3",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 4,
+          "reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.",
+          "assumptions": [
+            "assumption_3_0: Confidence level: 0.5"
+          ],
+          "is_final": true,
+          "confidence": 0.85,
+          "extracted_assumptions": [
+            "Confidence level: 0.5"
+          ],
+          "annotated_reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.\n[Assumptions: Confidence level: 0.5]",
+          "confidence_method": "structured-synthesis of expert judgment and deductive/inductive reasoning from previous steps. uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of triadic fca.",
+          "confidence_level": "high",
+          "step_index": 3,
+          "metrics": {
+            "confidence": 0.85,
+            "uncertainty": 0.15000000000000002,
+            "stability": 0.78,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_3_0: Confidence level: 0.5"
+          ],
+          "Description": "Step 4",
+          "confidence_category": "high"
+        }
+      ],
+      "inverted_context": {
+        "G": [
+          "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+          "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications.",
+          "assumption_0_4: 5. My understanding of the literature is accurate and complete.",
+          "assumption_3_0: Confidence level: 0.5",
+          "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+          "assumption_2_0: 1. More accurate data representation leads to better insights.",
+          "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+          "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+          "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+          "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+          "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+          "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn.",
+          "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+          "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+          "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+          "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes."
+        ],
+        "M": [
+          [
+            0,
+            "Step 1"
+          ],
+          [
+            1,
+            "Step 2"
+          ],
+          [
+            2,
+            "Step 3"
+          ],
+          [
+            3,
+            "Step 4"
+          ]
+        ],
+        "B": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "Y": [
+          [
+            [
+              0.6625766871165644,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.6625766871165644,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ],
+          [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "concepts": [
+        {
+          "intent": "Top Concept",
+          "is_top": true,
+          "is_bottom": false,
+          "A": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "C": [],
+          "D": [],
+          "A_objects": [
+            "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+            "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications.",
+            "assumption_0_4: 5. My understanding of the literature is accurate and complete.",
+            "assumption_3_0: Confidence level: 0.5",
+            "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+            "assumption_2_0: 1. More accurate data representation leads to better insights.",
+            "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+            "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+            "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+            "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+            "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+            "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn.",
+            "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+            "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+            "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+            "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes."
+          ],
+          "C_attributes": [],
+          "D_conditions": [],
+          "children": [],
+          "parents": [
+            1
+          ],
+          "triadic_connections": [
+            {
+              "target_concept": 1,
+              "connection_type": "parent",
+              "similarity": 0.0
+            }
+          ]
+        },
+        {
+          "intent": "Bottom Concept",
+          "is_top": false,
+          "is_bottom": true,
+          "A": [],
+          "C": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "D": [
+            0,
+            1,
+            2
+          ],
+          "A_objects": [],
+          "C_attributes": [
+            [
+              0,
+              "Step 1"
+            ],
+            [
+              1,
+              "Step 2"
+            ],
+            [
+              2,
+              "Step 3"
+            ],
+            [
+              3,
+              "Step 4"
+            ]
+          ],
+          "D_conditions": [
+            "high",
+            "medium",
+            "low"
+          ],
+          "children": [
+            0
+          ],
+          "parents": [],
+          "triadic_connections": [
+            {
+              "target_concept": 0,
+              "connection_type": "child",
+              "similarity": 0.0
+            }
+          ]
+        }
+      ],
+      "lattice": {
+        "nodes": [
+          {
+            "id": 0,
+            "label": "Concept 0",
+            "type": "triadic_concept",
+            "is_top": true,
+            "is_bottom": false,
+            "extent_size": 16,
+            "intent_size": 0,
+            "modus_size": 0,
+            "extent": [
+              "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+              "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications.",
+              "assumption_0_4: 5. My understanding of the literature is accurate and complete.",
+              "assumption_3_0: Confidence level: 0.5",
+              "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+              "assumption_2_0: 1. More accurate data representation leads to better insights.",
+              "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+              "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+              "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+              "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+              "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+              "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn.",
+              "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+              "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+              "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+              "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes."
+            ],
+            "intent": [],
+            "modus": []
+          },
+          {
+            "id": 1,
+            "label": "Concept 1",
+            "type": "triadic_concept",
+            "is_top": false,
+            "is_bottom": true,
+            "extent_size": 0,
+            "intent_size": 4,
+            "modus_size": 3,
+            "extent": [],
+            "intent": [
+              [
+                0,
+                "Step 1"
+              ],
+              [
+                1,
+                "Step 2"
+              ],
+              [
+                2,
+                "Step 3"
+              ],
+              [
+                3,
+                "Step 4"
+              ]
+            ],
+            "modus": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        ],
+        "edges": [
+          {
+            "source": 0,
+            "target": 1,
+            "type": "subconcept"
+          }
+        ],
+        "triadic_connections": [
+          {
+            "source": 0,
+            "target": 1,
+            "similarity": 0.0,
+            "connection_type": "triadic"
+          }
+        ]
+      },
+      "lattice_analysis": {
+        "concept_count": 2,
+        "max_extent_size": 16,
+        "max_intent_size": 4,
+        "max_modus_size": 3,
+        "avg_extent_size": 8.0,
+        "avg_intent_size": 2.0,
+        "avg_modus_size": 1.5,
+        "density": 1.0,
+        "connectivity": {
+          "avg_degree": 0.5,
+          "max_degree": 1,
+          "isolated_nodes": 1,
+          "connectivity_ratio": 0.5
+        },
+        "concept_stability": {
+          "avg_stability": 0.0,
+          "max_stability": 0.0,
+          "min_stability": 0.0
+        },
+        "triadic_quality": {
+          "coverage": 0.0,
+          "precision": 0.0,
+          "overall_quality": 0.0
+        },
+        "information_content": {
+          "entropy": 0.8865408928220899,
+          "redundancy": 0.0,
+          "information_density": 0.44327044641104496
+        },
+        "concept_distribution": {
+          "size_distribution": {
+            "tiny": 0.0,
+            "small": 0.5,
+            "medium": 0.5,
+            "large": 0.0
+          },
+          "balance_ratio": 0.1875,
+          "dimension_averages": {
+            "A": 8.0,
+            "C": 2.0,
+            "D": 1.5
+          }
+        },
+        "triadic_cohesion": {
+          "avg_cohesion": 0.0,
+          "max_cohesion": 0.0
+        }
+      },
+      "triadic_connections": [
+        {
+          "source_concept": 0,
+          "target_concept": 1,
+          "similarity": 0.0,
+          "connection_type": "triadic"
+        }
+      ],
+      "concept_visualization": {
+        "nodes": [
+          {
+            "id": 0,
+            "label": "Top Concept",
+            "type": "top",
+            "extent_size": 16,
+            "intent_size": 0,
+            "modus_size": 0
+          },
+          {
+            "id": 1,
+            "label": "Bottom Concept",
+            "type": "bottom",
+            "extent_size": 0,
+            "intent_size": 4,
+            "modus_size": 3
+          }
+        ],
+        "links": [
+          {
+            "source": 1,
+            "target": 0,
+            "type": "subconcept"
+          }
+        ],
+        "layout": "hierarchical",
+        "node_count": 2,
+        "link_count": 1
+      },
+      "tau_threshold": 0.4,
+      "reasoning_steps": [
+        {
+          "step_num": 1,
+          "reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.",
+          "assumptions": [
+            "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+            "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+            "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+            "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+            "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "Traditional FCA analyzes data based on a binary relation between objects and attributes.  Triadic FCA introduces a third dimension, often representing contexts or situations. This additional dimension allows for a more nuanced representation of complex relationships.\n\nconfidence: 0.95\nmethod: expert judgment based on extensive literature review of FCA and Triadic FCA.\nAssumptions:\n1. The fundamental principles of FCA are well-understood.\n2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.\n3. The additional dimension in Triadic FCA provides meaningful information.\n4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.\n5. My understanding of the literature is accurate and complete.\n[Assumptions: ]",
+          "confidence": 0.95,
+          "confidence_method": "structured-expert judgment based on extensive literature review of fca and triadic fca.",
+          "confidence_level": "high",
+          "step_index": 0,
+          "metrics": {
+            "confidence": 0.95,
+            "uncertainty": 0.050000000000000044,
+            "stability": 0.86,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_0_0: 1. The fundamental principles of FCA are well-understood.",
+            "assumption_0_1: 2. The definition of Triadic FCA includes a third dimension beyond objects and attributes.",
+            "assumption_0_2: 3. The additional dimension in Triadic FCA provides meaningful information.",
+            "assumption_0_3: 4.  The literature accurately reflects the capabilities of both FCA and Triadic FCA.",
+            "assumption_0_4: 5. My understanding of the literature is accurate and complete."
+          ],
+          "Description": "Step 1",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 2,
+          "reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.",
+          "assumptions": [
+            "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+            "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+            "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+            "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+            "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "The added dimension in Triadic FCA enables the modeling of relationships that are context-dependent.  For example, a relationship between an object and an attribute might hold true in one context but not another. Traditional FCA cannot easily capture this variability.\n\nconfidence: 0.80\nmethod: deductive reasoning based on the definition of Triadic FCA and examples from the literature.  Uncertainty stems from the diversity of applications and interpretations of Triadic FCA.\nAssumptions:\n1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.\n2. The third dimension in Triadic FCA effectively represents context.\n3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.\n4.  My understanding of context-dependent relationships is accurate.\n5. The examples in the literature are representative of typical Triadic FCA applications.\n[Assumptions: ]",
+          "confidence": 0.8,
+          "confidence_method": "structured-deductive reasoning based on the definition of triadic fca and examples from the literature.  uncertainty stems from the diversity of applications and interpretations of triadic fca.",
+          "confidence_level": "high",
+          "step_index": 1,
+          "metrics": {
+            "confidence": 0.8,
+            "uncertainty": 0.19999999999999996,
+            "stability": 0.74,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_1_0: 1. Context significantly influences the relationships between objects and attributes in many real-world scenarios.",
+            "assumption_1_1: 2. The third dimension in Triadic FCA effectively represents context.",
+            "assumption_1_2: 3. The relationships modeled in Triadic FCA are more realistic than those in traditional FCA in many cases.",
+            "assumption_1_3: 4.  My understanding of context-dependent relationships is accurate.",
+            "assumption_1_4: 5. The examples in the literature are representative of typical Triadic FCA applications."
+          ],
+          "Description": "Step 2",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 3,
+          "reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.",
+          "assumptions": [
+            "assumption_2_0: 1. More accurate data representation leads to better insights.",
+            "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+            "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+            "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+            "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+          ],
+          "extracted_assumptions": [],
+          "annotated_reasoning": "This increased expressiveness allows for a more comprehensive and accurate representation of complex data, leading to better insights and more effective knowledge discovery.\n\nconfidence: 0.75\nmethod: inductive reasoning based on the improved modeling capabilities of Triadic FCA. Uncertainty arises from the potential for overfitting or misinterpreting the results.\nAssumptions:\n1. More accurate data representation leads to better insights.\n2.  The complexity of real-world data often requires context-dependent modeling.\n3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.\n4.  The interpretation of Triadic FCA results is straightforward and reliable.\n5. Potential biases in data do not significantly affect the conclusions drawn.\n[Assumptions: ]",
+          "confidence": 0.75,
+          "confidence_method": "structured-inductive reasoning based on the improved modeling capabilities of triadic fca. uncertainty arises from the potential for overfitting or misinterpreting the results.",
+          "confidence_level": "high",
+          "step_index": 2,
+          "metrics": {
+            "confidence": 0.75,
+            "uncertainty": 0.25,
+            "stability": 0.7,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_2_0: 1. More accurate data representation leads to better insights.",
+            "assumption_2_1: 2.  The complexity of real-world data often requires context-dependent modeling.",
+            "assumption_2_2: 3. Triadic FCA's increased expressiveness translates directly to improved knowledge discovery.",
+            "assumption_2_3: 4.  The interpretation of Triadic FCA results is straightforward and reliable.",
+            "assumption_2_4: 5. Potential biases in data do not significantly affect the conclusions drawn."
+          ],
+          "Description": "Step 3",
+          "confidence_category": "high"
+        },
+        {
+          "step_num": 4,
+          "reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.",
+          "assumptions": [
+            "assumption_3_0: Confidence level: 0.5"
+          ],
+          "is_final": true,
+          "confidence": 0.85,
+          "extracted_assumptions": [
+            "Confidence level: 0.5"
+          ],
+          "annotated_reasoning": "Final Answer: The main advantage of Triadic FCA over traditional FCA is its ability to model context-dependent relationships between objects and attributes, leading to a more comprehensive and accurate representation of complex data and ultimately better insights and knowledge discovery.\n\nconfidence: 0.85\nmethod: Synthesis of expert judgment and deductive/inductive reasoning from previous steps. Uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of Triadic FCA.\n[Assumptions: Confidence level: 0.5]",
+          "confidence_method": "structured-synthesis of expert judgment and deductive/inductive reasoning from previous steps. uncertainty remains due to the inherent limitations of any data analysis method and the potential for misapplication of triadic fca.",
+          "confidence_level": "high",
+          "step_index": 3,
+          "metrics": {
+            "confidence": 0.85,
+            "uncertainty": 0.15000000000000002,
+            "stability": 0.78,
+            "connectivity": 0.6,
+            "density": 0.6,
+            "coverage": 0.6
+          },
+          "Assumptions": [
+            "assumption_3_0: Confidence level: 0.5"
+          ],
+          "Description": "Step 4",
+          "confidence_category": "high"
+        }
+      ],
+      "confidence_metrics": {
+        "confidence_metrics": {
+          "average": 0.8375,
+          "max": 0.95,
+          "min": 0.75,
+          "range": 0.19999999999999996,
+          "variance": 0.005468749999999997,
+          "high_ratio": 1.0,
+          "low_ratio": 0.0,
+          "mid_ratio": 0.0,
+          "trend": -0.09999999999999998
+        },
+        "membership_degrees": {
+          "accept": 1.0,
+          "reject": 0.0,
+          "abstain": 0.0
+        },
+        "confidence_calibration": {
+          "accept_factor": 1.0,
+          "reject_factor": 1.0,
+          "abstain_factor": 1.0
+        }
+      }
+    },
+    "metrics": {
+      "confidence_metrics": {
+        "acceptance_rate": 1.0,
+        "rejection_rate": 0.0,
+        "abstention_rate": 0.0,
+        "average_confidence": 0.8375,
+        "confidence_by_decision": {
+          "ACCEPT": 0.8375,
+          "REJECT": 0,
+          "ABSTAIN": 0
+        },
+        "total_decisions": 4,
+        "decision_counts": {
+          "ACCEPT": 4,
+          "REJECT": 0,
+          "ABSTAIN": 0
+        },
+        "total_confidence": 3.35,
+        "confidence_values": [
+          0.95,
+          0.8,
+          0.75,
+          0.85
+        ]
+      },
+      "lattice_metrics": {
+        "concept_count": 2,
+        "max_extent_size": 16,
+        "max_intent_size": 4,
+        "max_modus_size": 3,
+        "avg_extent_size": 8.0,
+        "avg_intent_size": 2.0,
+        "avg_modus_size": 1.5,
+        "density": 1.0,
+        "connectivity": {
+          "avg_degree": 0.5,
+          "max_degree": 1,
+          "isolated_nodes": 1,
+          "connectivity_ratio": 0.5
+        },
+        "concept_stability": {
+          "avg_stability": 0.0,
+          "max_stability": 0.0,
+          "min_stability": 0.0
+        },
+        "triadic_quality": {
+          "coverage": 0.0,
+          "precision": 0.0,
+          "overall_quality": 0.0
+        },
+        "information_content": {
+          "entropy": 0.8865408928220899,
+          "redundancy": 0.0,
+          "information_density": 0.44327044641104496
+        },
+        "concept_distribution": {
+          "size_distribution": {
+            "tiny": 0.0,
+            "small": 0.5,
+            "medium": 0.5,
+            "large": 0.0
+          },
+          "balance_ratio": 0.1875,
+          "dimension_averages": {
+            "A": 8.0,
+            "C": 2.0,
+            "D": 1.5
+          }
+        },
+        "triadic_cohesion": {
+          "avg_cohesion": 0.0,
+          "max_cohesion": 0.0
+        }
+      }
+    }
+  },
+  "metrics": {
+    "acceptance_rate": 1.0,
+    "rejection_rate": 0.0,
+    "abstention_rate": 0.0,
+    "average_confidence": 0.8375,
+    "confidence_by_decision": {
+      "ACCEPT": 0.8375,
+      "REJECT": 0,
+      "ABSTAIN": 0
+    },
+    "total_decisions": 4,
+    "decision_counts": {
+      "ACCEPT": 4,
+      "REJECT": 0,
+      "ABSTAIN": 0
+    },
+    "total_confidence": 3.35,
+    "confidence_values": [
+      0.95,
+      0.8,
+      0.75,
+      0.85
+    ]
+  },
+  "timestamp": "2025-05-25T22:15:53.220375"
+}
