@@ -81,7 +81,7 @@ llm:
         temperature: 0.7
     gemini:
       default_model: gemini-1.5-flash
-      api_key_env: AIzaSyB90b21EctP3b4LQfQGhwk4RkLQS49iKDo
+      api_key_env:  
       models:
       - gemini-1.5-flash
       - gemini-1.5-pro
