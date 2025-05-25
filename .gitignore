@@ -41,6 +41,10 @@ data/benchmarks/*
 !data/benchmarks/.gitkeep
 data/knowledge_base.json
 
+# Large files
+benchmarks/datasets/data_clean.zip
+*.zip
+
 # IDE files
 .idea/
 .vscode/
