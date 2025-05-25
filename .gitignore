@@ -5,7 +5,8 @@ venv/
 env/
 ENV/
 .old/
-.old
+.old/
+.old/*
 
 # Python artifacts
 __pycache__/
